@@ -1,0 +1,41 @@
+a[href="/u52"] span strong:after {
+    content: 'Beathan';
+    background: #0d0d0d;
+    position: relative;
+    left: -102px;
+}
+.postprofile-avatar a[href="/u52"]::after {
+    content: url(https://i.imgur.com/SFLF7HN.png);
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+.author a[href="/u52"] span strong:after {
+    content: 'Beathan';
+    position: relative;
+    left: -44px;
+    background: #111111;
+    margin-left: -35px;
+}
+img[src="https://s1.postimg.org/3rzmxksrxr/bethany_icon.png"] {
+    background: url(http://78.media.tumblr.com/6c186a4…/tumblr_inline_p29l54cwBQ1s9j3oa_500.png);
+    display: block;
+    background-size: 125px;
+    background-position: center;
+}
+
+#profile12194 .postprofile-rank, #profile12194 .postprofile-field.postprofile-field-edad .postprofile-field-content {
+    visibility: hidden;
+}
+#profile12194 .postprofile-rank:after {
+    content: 'drama kid';
+    position: relative;
+    top: -14px;
+    visibility: visible;
+}
+#profile12194 .postprofile-field.postprofile-field-edad .postprofile-field-content:after {
+    content: '17 años';
+    visibility: visible;
+    position: relative;
+    left: -15px;
+}
