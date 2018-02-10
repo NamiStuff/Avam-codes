@@ -21,18 +21,20 @@ img[src="https://s1.postimg.org/3rzmxksrxr/bethany_icon.png"] {
     content: url(http://sig.grumpybumpers.com/host/beaticon.gif);
 }
 
-#profile12194 .postprofile-rank, #profile12194 .postprofile-field.postprofile-field-edad .postprofile-field-content {
-    visibility: hidden;
-}
-#profile12194 .postprofile-rank:after {
-    content: 'drama kid';
-    position: relative;
-    top: -14px;
-    visibility: visible;
-}
-#profile12194 .postprofile-field.postprofile-field-edad .postprofile-field-content:after {
-    content: '17 años';
-    visibility: visible;
-    position: relative;
-    left: -15px;
+.trav-sig.beat .trav-img { 
+    background: url(http://sig.grumpybumpers.com/host/beathan.gif); 
+    box-shadow: 0 0 0 3px #141414, 0 0 0 5px #5a769a; 
+    background-size: 140px; 
+    background-position: center; 
+} 
+.trav-sig.beat .trav-img .trav-repro { 
+    background: rgba(90, 118, 154, 0.3); 
+} 
+.trav-sig.beat .trav-tit { 
+    width: 210px; text-align: center; 
+    color: #5a769a;
+} 
+.trav-sig.beat .trav-txt { 
+    font-family: calibri;
+    font-size: 10px;
 }
