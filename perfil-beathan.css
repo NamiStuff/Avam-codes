@@ -1,4 +1,4 @@
-a[href="/u52"] span strong:after {
+.postprofile a[href="/u52"] span strong:after {
     content: 'Beathan';
     background: #0d0d0d;
     position: relative;
