@@ -1,0 +1,56 @@
+.status {margin:25px auto;width:170px;border:1px solid #394341;outline:20px solid #141414;padding:20px;background:#141414; }
+.status.tema {display:block; padding:20px;outline-color: #111111; background-color: #111111;}
+.status.bs {border-color: #8799a4;}
+.status.ks {border-color: #ae70eb;}
+.status .tit {font-size:14px;font-family:raleway;text-align:center;color:#fff}
+.status .sub {font-size: 13px;color: #fff;text-align: center;}
+.status .stats {width: 166px;margin: 7px auto 0 auto;text-align: left;font-size: 9px;letter-spacing: 1.5px;color:#c3c3c3;}
+.status .stat {width: 81px;display: inline-block;word-spacing: -2px;}
+.status .stats i {font-size: 9px;font-style: normal;color: white;}
+.status .stats span {color:#394341;font-size: 12px;margin: 0 0 0 2px;}
+.status .stats span + span {color: grey !important; margin: 0;}
+.status.bs .stats span {color: #8799a4;}
+.status.ks .stats span {color: #ae70eb;}
+.status .stats span:first-child {display: inline-block;}
+
+.status.tema.vs {width: 400px; }
+.status.tema.vs .pj, .status.tema.vs .monst {width: 170px !important; display: inline-block;} 
+.status.vs .monst {margin: -15px auto auto 60px; vertical-align: top; width: 170px;} 
+.status.vs .monst:before { content: 'vs'; position: relative; left: -44px; top: 75px; font-family: raleway; letter-spacing: 3px; font-size: 19px; font-style: italic; }
+.vs .monst .stat {width: auto; min-width: 70px; max-width: 82px;}
+.status.tema.vs .extra {margin:0px; color:#de6e6e; cursor: pointer;} .status.tema.vs .df222 .extra {font-size:8px;}
+.status .df222 {width: 142px; height: auto;margin: 8px auto auto 0px;}
+.tema.vs .desg { margin-top: -133px; background: #111111; position: relative; height: 133px; columns: 100px 2; overflow: auto; opacity: 0; -webkit-transition: all .9s ease; transition: all .9s ease; -moz-transition: all .9s ease; -o-transition: all .9s ease;} 
+.status.vs strong {color: grey;}
+.status.tema.vs.bs .extra {margin:0px; color:#de6e6e; cursor: pointer;} .status.tema.vs.bs .df222 .extra {font-size:8px;}
+
+.bf1.atrib.beth {outline-color: #8799a4; } 
+.bf1.atrib.beth .fichita .stats span {color: #8799a4; } 
+.atrib {margin:auto;} 
+.atrib .icon {width:100px;height:100px;background-size:100px;float: left;border-radius:100%;border:3px solid #394341; margin-right: 5px;} 
+.atrib .fichita {margin-top: 8px;} 
+.atrib .fichita .tit {font-size:14px;font-family:raleway;text-align:center;text-transform: uppercase;color:#fff} 
+.atrib .fichita .subtit {font-size: 12px;color: #fff;text-align: center;letter-spacing: 1px;} .atrib .fichita .stats {margin: 8px auto 0 auto;letter-spacing: 2px; text-align: left;} .atrib .fichita .stat {width: 85px;display: inline-block;} 
+.atrib .fichita .stats u { text-decoration: none; padding: 0 4px 1px; margin: 1px 0; display: inline-block; font-weight: normal; font-size: 9px; letter-spacing: 1px; } 
+.atrib .fichita .stats span {color:#394341;font-size: 13px;} 
+.atrib .inv {width: auto; display: flex; flex-wrap: wrap; height: auto; max-height: 84px; margin: 20px auto auto; overflow: auto;}
+.atrib .df222 {height: 8px;margin: 0 0 2px 0;flex: 1 0 auto;}
+
+.versus { width: auto; margin: auto; padding: 45px; } .versus .pj, .versus .bicho { width: 180px; display: inline-block; margin: auto; } 
+.versus .bicho { margin: -15px auto auto 70px; width: 155px; vertical-align: top; } 
+.versus .bicho:before { content: 'VS'; position: relative; left: -55px; top: 155px; font-family: raleway; letter-spacing: 3px; font-size: 20px; font-style: italic; } 
+.versus .icon { float: none; margin: auto; background-size:100px; width: 100px; height: 100px; border-radius: 100%; border: 3px solid #394341; } 
+.versus .tit { margin-top: 10px; font-size: 12px; font-family: raleway; text-align: center; text-transform: uppercase; color: #fff; } 
+.versus .subtit { font-size: 11px; color: #fff; text-align: center; letter-spacing: 1px; } 
+.versus .stats { font-size: 9px; text-align: left; width: 150px; margin: 7px auto 0 auto; color: grey; } 
+.versus .bicho .stats { width: 140px; } 
+.versus .stats u { font-size: 8px; text-decoration: none; padding: 0; margin: 0px; display: inline; font-weight: normal; color: white; letter-spacing: 0.5px;} 
+.versus span {font-size: 12px; color: #394341;} 
+.versus .pv { width: 120px; } 
+.versus .stat { width: 70px; display: inline-block; } 
+.versus .stat span { margin-bottom: 5px; color: #394341; } 
+.result { width: 150px; margin: 15px auto auto auto; display: flex; flex-wrap: wrap; } 
+.result .df222 { width: calc(35%); flex: 1; margin: 1px 0; } .bicho .result .df222:first-child { flex: 0 0 calc(100% - 18px); }
+.versus .desg { margin-top: -302px; background: #111111; position: relative; height: 294px; padding-top:10px; columns: 100px 2; overflow: auto; opacity: 0; -webkit-transition: all .9s ease; transition: all .9s ease; -moz-transition: all .9s ease; -o-transition: all .9s ease;} 
+.versus .desg .tit {margin-top: 0;}
+.versus:hover .desg, .tema.vs:hover .desg {opacity:1}
