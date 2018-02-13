@@ -1,3 +1,5 @@
+﻿@charset "UTF-8";
+
 /* Nami Codes */
 
 /*Base stats*/
@@ -63,6 +65,386 @@
 
 /* Sephiroth Codes */
 
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://bangeluz.github.io/avam-project/styles.css);
 
+.barra-v3 {
+    background: #111;
+    border: 1px solid #394341;
+    color: #e8e8e8;
+    font: 11px Arial;
+    outline: #111 solid 20px;
+    padding: 25px 0 25px 25px;
+    width: 370px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
 
+.barra-v3 .img {
+    width: 130px;
+    height: 150px;
+    background: url(https://image.ibb.co/nRi6dx/rich_stats_2.png) center/cover;
+    outline: #394341 solid 1px;
+    outline-offset: 5px;
+    margin: 5px;
+    display: inline-block;
+    -webkit-transition: .5s ease;
+    transition: .5s ease
+}
 
+.barra-v3 .datos {
+    margin: 0 10px;
+    text-transform: uppercase
+}
+
+.barra-v3 .datos .perfils {
+    -webkit-transition: 1s ease;
+    transition: 1s ease
+}
+
+.barra-v3 .datos .perfils .nombre {
+    font: 700 18px Raleway;
+    border-bottom: 1px solid #394341;
+    letter-spacing: -1px
+}
+
+.barra-v3 .datos .perfils .especialidad,
+.barra-v3 .datos .perfils .vs {
+    font: 10px Roboto;
+    letter-spacing: 1px;
+    padding: 2px 0
+}
+
+.barra-v3 .datos .perfils .especialidad {
+    color: #777
+}
+
+.barra-v3 .datos .perfils .vs::before {
+    content: "VS:";
+    background: #394341;
+    margin-right: 2px;
+    padding: 0 1px 0 3px
+}
+
+.barra-v3 .datos .estado {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    color: #e8e8e8;
+    -webkit-transition: .8s ease;
+    transition: .8s ease
+}
+
+.barra-v3 .datos .estado span {
+    margin: 5px 0 3px;
+    letter-spacing: 1px;
+    font-size: 9px;
+    display: block;
+    border-bottom: 1px solid #394341
+}
+
+.barra-v3 .datos .estado o {
+    color: #333
+}
+
+.barra-v3 .stats {
+    width: 99%;
+    padding-right: 25px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 14px auto 0
+}
+
+.barra-v3 .stats [class^=icon] {
+    font: 12px Roboto;
+    position: relative;
+    -webkit-transition: .5s ease;
+    transition: .5s ease
+}
+
+.barra-v3 .stats [class^=icon]:nth-child(1) {
+    -webkit-transition-delay: .2s;
+    transition-delay: .2s
+}
+
+.barra-v3 .stats [class^=icon]:nth-child(2) {
+    -webkit-transition-delay: .3s;
+    transition-delay: .3s
+}
+
+.barra-v3 .stats [class^=icon]:nth-child(3) {
+    -webkit-transition-delay: .4s;
+    transition-delay: .4s
+}
+
+.barra-v3 .stats [class^=icon]:nth-child(4) {
+    -webkit-transition-delay: .5s;
+    transition-delay: .5s
+}
+
+.barra-v3 .stats [class^=icon]:nth-child(5) {
+    -webkit-transition-delay: .6s;
+    transition-delay: .6s
+}
+
+.barra-v3 .stats [class^=icon]:nth-child(6) {
+    -webkit-transition-delay: .7s;
+    transition-delay: .7s
+}
+
+.barra-v3 .stats [class^=icon]::before {
+    font-size: 18px;
+    color: #999;
+    right: 4px;
+    top: 5px;
+    position: relative;
+    -webkit-box-shadow: 0 0 0 1.1px #394341;
+    box-shadow: 0 0 0 1.1px #394341;
+    border-radius: 50%;
+    padding: 7px
+}
+
+.barra-v3 .stats .atk::after {
+    color: #32cd32;
+    content: "♦first";
+    position: absolute;
+    right: 0;
+    bottom: -7px;
+    font-size: 8px
+}
+
+.barra-v3 .stats .atk::before {
+    -webkit-box-shadow: 0 0 0 1.1px #32cd32;
+    box-shadow: 0 0 0 1.1px #32cd32
+}
+
+.barra-v3 .stats .buff {
+    color: #87ceeb
+}
+
+.barra-v3 .stats .buff::after {
+    content: "+up";
+    position: absolute;
+    right: 0;
+    bottom: -7px;
+    font-size: 8px
+}
+
+.barra-v3 .stats .buff::before {
+    -webkit-box-shadow: 0 0 0 1.1px #87ceeb;
+    box-shadow: 0 0 0 1.1px #87ceeb
+}
+
+.barra-v3 .stats .debuff {
+    color: #dc143c
+}
+
+.barra-v3 .stats .debuff::after {
+    content: "-down";
+    position: absolute;
+    right: 0;
+    bottom: -7px;
+    font-size: 8px
+}
+
+.barra-v3 .stats .debuff::before {
+    -webkit-box-shadow: 0 0 0 1.1px #dc143c;
+    box-shadow: 0 0 0 1.1px #dc143c
+}
+
+.barra-v3 .stats .alt {
+    color: #792DEB
+}
+
+.barra-v3 .stats .alt::after {
+    content: "⨯effect";
+    position: absolute;
+    right: 0;
+    bottom: -7px;
+    font-size: 8px
+}
+
+.barra-v3 .stats .alt::before {
+    -webkit-box-shadow: 0 0 0 1.1px #792DEB;
+    box-shadow: 0 0 0 1.1px #792DEB
+}
+
+.barra-v3 .stats .con,
+.barra-v3 .stats .con-1d,
+.barra-v3 .stats .con-2d {
+    color: #daa520
+}
+
+.barra-v3 .stats .con-1d::after,
+.barra-v3 .stats .con-2d::after,
+.barra-v3 .stats .con::after {
+    position: absolute;
+    right: 0;
+    bottom: -14px;
+    font-size: 18px
+}
+
+.barra-v3 .stats .con-1d::before,
+.barra-v3 .stats .con-2d::before,
+.barra-v3 .stats .con::before {
+    -webkit-box-shadow: 0 0 0 1.1px #daa520;
+    box-shadow: 0 0 0 1.1px #daa520
+}
+
+.barra-v3 .stats .con::after {
+    content: "▪▪";
+    background: -webkit-gradient(linear, left top, right top, color-stop(49%, #444), color-stop(50%, #daa520));
+    background: linear-gradient(left, #444 49%, #daa520 50%);
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.barra-v3 .stats .con-1d::after,
+.barra-v3 .stats .con-2d::after {
+    content: "▪▪▪";
+    -webkit-text-fill-color: transparent
+}
+
+.barra-v3 .stats .con-2d::after {
+    background: -webkit-gradient(linear, left top, right top, color-stop(33%, #444), color-stop(33%, #daa520));
+    background: linear-gradient(left, #444 33%, #daa520 33%);
+    background-size: 100% 100%;
+    -webkit-background-clip: text
+}
+
+.barra-v3 .stats .con-1d::after {
+    background: -webkit-gradient(linear, left top, right top, color-stop(66%, #444), color-stop(66%, #daa520));
+    background: linear-gradient(left, #444 66%, #daa520 66%);
+    background-size: 100% 100%;
+    -webkit-background-clip: text
+}
+
+.barra-v3 .comentario {
+    line-height: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #111;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding: 10px;
+    text-align: justify;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    opacity: 0;
+    -webkit-transition: .4s ease;
+    transition: .4s ease
+}
+
+@-webkit-keyframes avam-color {
+    0%,
+    100% {
+        background-position: 97% 0
+    }
+    50% {
+        background-position: 4% 100%
+    }
+}
+
+@keyframes avam-color {
+    0%,
+    100% {
+        background-position: 97% 0
+    }
+    50% {
+        background-position: 4% 100%
+    }
+}
+
+.barra-v3:hover .comentario {
+    opacity: 1;
+    -webkit-transition: .5s 1s ease;
+    transition: .5s 1s ease
+}
+
+.barra-v3:hover [class^=icon] {
+    -webkit-transition: .5s 1s ease;
+    transition: .5s 1s ease;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px)
+}
+
+.barra-v3:hover .img {
+    -webkit-transition: .8s .3s ease;
+    transition: .8s .3s ease;
+    -webkit-transform: translateX(-300px);
+    transform: translateX(-300px)
+}
+
+.barra-v3:hover .datos .perfils {
+    -webkit-transition: .8s .4s ease;
+    transition: .8s .4s ease;
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px)
+}
+
+.barra-v3:hover .datos .estado {
+    -webkit-transition: .8s .5s ease;
+    transition: .8s .5s ease;
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px)
+}
+
+.barra-v3 [color=blue] {
+    background: linear-gradient(240deg, #050578, #00f, #000063);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: avam-color 6s ease infinite;
+    animation: avam-color 6s ease infinite
+}
+
+.barra-v3 [color=goldenrod] {
+    background: linear-gradient(240deg, #B8860B, gold, #B8860B);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: avam-color 6s ease infinite;
+    animation: avam-color 6s ease infinite
+}
+
+.barra-v3 [color=limegreen] {
+    background: linear-gradient(240deg, green, #32cd32, #056b05);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: avam-color 6s ease infinite;
+    animation: avam-color 6s ease infinite
+}
+
+.barra-v3 br {
+    display: none
+}
+
+.barra-v3 .comentario br {
+    display: block
+}
