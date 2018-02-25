@@ -1,23 +1,20 @@
-.postprofile a[href="/u52"] span strong:after {
+.author-52 .postprofile a strong:after {
     content: 'Beathan';
     background: #0d0d0d;
     position: relative;
     left: -102px;
 }
-.postprofile-avatar a[href="/u52"]::after {
+.author-52 .postprofile-avatar img {
     content: url(https://i.imgur.com/SFLF7HN.png);
-    position: absolute;
-    top: 0;
-    left: 0px;
 }
-.author a[href="/u52"] span strong:after {
+.author-52 .author a span strong::after{
     content: 'Beathan';
     position: relative;
     left: -44px;
     background: #111111;
     margin-left: -35px;
 }
-img[src="https://s1.postimg.org/3rzmxksrxr/bethany_icon.png"] {
+.author-52 .topictitle-image img {
     content: url(http://sig.grumpybumpers.com/host/beaticon.gif);
 }
 
