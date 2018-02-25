@@ -36,8 +36,9 @@
 .atrib .inv {width: auto; display: flex; flex-wrap: wrap; height: auto; max-height: 84px; margin: 20px auto auto; overflow: auto;}
 .atrib .df222 {height: 8px;margin: 0 0 2px 0;flex: 1 0 auto;}
 
-.versus { width: auto; margin: auto; padding: 45px; } .versus .pj, .versus .bicho { width: 180px; display: inline-block; margin: auto; } 
-.versus .bicho { margin: -15px auto auto 70px; width: 155px; vertical-align: top; } 
+.versus { width: auto; margin: auto; padding: 30px; outline-offset: -15px; }
+.versus .pj, .versus .bicho { width: 180px; display: inline-block; margin: auto; } 
+.versus .bicho { margin: -15px auto auto 68px; width: 155px; vertical-align: top; } 
 .versus .bicho:before { content: 'VS'; position: relative; left: -55px; top: 155px; font-family: raleway; letter-spacing: 3px; font-size: 20px; font-style: italic; } 
 .versus .icon { float: none; margin: auto; background-size:100px; width: 100px; height: 100px; border-radius: 100%; border: 3px solid #394341; } 
 .versus .tit { margin-top: 10px; font-size: 12px; font-family: raleway; text-align: center; text-transform: uppercase; color: #fff; } 
@@ -50,7 +51,7 @@
 .versus .stat { width: 70px; display: inline-block; } 
 .versus .stat span { margin-bottom: 5px; color: #394341; } 
 .result { width: 150px; margin: 15px auto auto auto; display: flex; flex-wrap: wrap; } 
-.result .df222 { width: calc(35%); flex: 1; margin: 1px 0; } .bicho .result .df222:first-child { flex: 0 0 calc(100% - 18px); }
+.result .df222 { width: calc(35%); flex: 1; margin: 1px 0; } .bicho .result .df222:first-child { flex: 0 0 calc(100% - 25px); }
 .versus .desg { margin-top: -302px; background: #111111; position: relative; height: 294px; padding-top:10px; columns: 100px 2; overflow: auto; opacity: 0; -webkit-transition: all .9s ease; transition: all .9s ease; -moz-transition: all .9s ease; -o-transition: all .9s ease;} 
 .versus .desg .tit {margin-top: 0;}
 .versus:hover .desg, .tema.vs:hover .desg {opacity:1}
