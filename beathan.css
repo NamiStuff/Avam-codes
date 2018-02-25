@@ -1,8 +1,8 @@
 .author-52 .postprofile a strong:after {
     content: 'Beathan';
-    background: #0d0d0d;
+    background: #000000;
     position: relative;
-    left: -102px;
+    left: -93px;
 }
 .author-52 .postprofile-avatar img {
     content: url(https://i.imgur.com/SFLF7HN.png);
@@ -11,7 +11,7 @@
     content: 'Beathan';
     position: relative;
     left: -44px;
-    background: #111111;
+    background: #000000;
     margin-left: -35px;
 }
 .author-52 .topictitle-image img {
