@@ -34,4 +34,6 @@
 .trav-sig.beat .trav-txt { 
     font-family: calibri;
     font-size: 10px;
+    color:white;
+    background: #000000ab;
 }
