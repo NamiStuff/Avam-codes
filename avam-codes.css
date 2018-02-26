@@ -3,7 +3,7 @@
 /* Nami Codes */
 
 /*Base stats*/
-.status {margin:25px auto;width:170px;border:1px solid #09625d;outline:20px solid #060606c9;padding:20px;background:#060606; }
+.status {margin:25px auto;width:170px;border:1px solid #09625d;outline:20px solid #0a0a0aeb;padding:20px;background:#0a0a0aeb; }
 .status.tema {display:block; padding:20px;outline-color: #000000a6; background-color: #000000a6;}
 .status.ks {border-color: #ae70eb;}
 .status .tit {font-size:14px;font-family:raleway;text-align:center;color:#fff; letter-spacing: 1px;}
