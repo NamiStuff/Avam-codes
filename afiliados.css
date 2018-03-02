@@ -1,0 +1,9 @@
+.post .content .dfxxx a {color: white;}
+.mf .codebox.spoiler { background: rgba(0,0,0,0.67); border: none; width: auto; padding: 6px; color: #fff!important; font-family: calibri; font-size: 10px; } 
+.mf .codebox.spoiler dt { border-bottom: 1px solid #09625d; color: #fff; font-size: 10px !important; letter-spacing: 2.5px; padding: 0 0 5px 0; text-transform: uppercase; margin: 0 0 5px 0; background: none; text-align: center; } 
+.mf .codebox {background: none !important;} 
+.mf code {color: white !important;} 
+.mf { background: #000000cf; color: #c5c5c5; font-family: calibri; font-size: 13px; height: auto; line-height: 13px; margin: auto auto 13px; outline: 20px solid #000000cf; outline-offset: 1px; padding: 21px; text-align: justify; width: 360px; } 
+.dfxxx { border-bottom: 1px solid #09625d; color: #fff; font-family: Calibri; font-size: 9px; height: 13px; letter-spacing: 9px; margin-bottom: 5px; padding: 33px; text-align: center; text-transform: uppercase; width: auto; } 
+.df2avam { font-family: calibri; font-size: 10px; letter-spacing: 1px; line-height: 9px; margin: auto; padding: 4px; text-align: center; text-transform: uppercase; width: 290px; } 
+.subfr { color: #09625d; font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; text-align: center; }
