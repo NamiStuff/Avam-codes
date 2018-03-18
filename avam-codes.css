@@ -47,8 +47,7 @@
 .versus .icon { float: none; margin: auto; background-size:100px; width: 100px; height: 100px; border-radius: 100%; border: 3px solid #394341; } 
 .versus .tit { margin-top: 10px; font-size: 12px; font-family: raleway; text-align: center; text-transform: uppercase; color: #fff; } 
 .versus .subtit { font-size: 11px; color: #fff; text-align: center; letter-spacing: 1px; } 
-.versus .stats { font-size: 9px; text-align: left; width: 150px; margin: 7px auto 0 auto; color: grey; } 
-.versus .bicho .stats { width: 140px; } 
+.versus .stats { font-size: 9px; text-align: left; width: auto; margin: 7px auto 0 auto; color: grey; } 
 .versus .stats u { font-size: 8px; text-decoration: none; padding: 0; margin: 0px; display: inline; font-weight: normal; color: white; letter-spacing: 0.5px;} 
 .versus span {font-size: 12px; color: #394341;} 
 .versus .pv { width: 120px; } 
