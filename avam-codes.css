@@ -41,9 +41,9 @@
 
 /*Stats versus grande*/
 .versus { width: auto; margin: auto; padding: 30px; outline-offset: -15px; }
-.versus .pj, .versus .bicho { width: 180px; display: inline-block; margin: auto; } 
-.versus .bicho { margin: -15px auto auto 68px; width: 155px; vertical-align: top; } 
-.versus .bicho:before { content: 'VS'; position: relative; left: -55px; top: 155px; font-family: raleway; letter-spacing: 3px; font-size: 20px; font-style: italic; } 
+.versus .pj, .versus .bicho { width: 190px; display: inline-block; margin: auto; } 
+.versus .bicho { margin: -15px auto auto 50px; vertical-align: top; } 
+.versus .bicho:before { content: 'VS'; position: relative; left: -40px; top: 155px; font-family: raleway; letter-spacing: 3px; font-size: 20px; font-style: italic; } 
 .versus .icon { float: none; margin: auto; background-size:100px; width: 100px; height: 100px; border-radius: 100%; border: 3px solid #394341; } 
 .versus .tit { margin-top: 10px; font-size: 12px; font-family: raleway; text-align: center; text-transform: uppercase; color: #fff; } 
 .versus .subtit { font-size: 11px; color: #fff; text-align: center; letter-spacing: 1px; } 
