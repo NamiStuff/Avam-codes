@@ -64,7 +64,7 @@
 /* Baules */
 .bf1.devel, .bf1.crono, .bf1.relas {font-family: calibri;}
 .dfxx {margin: 7px 0 0;line-height: 13px;}
-.devel .df222 {margin: auto;width: 112px;vertical-align: top;padding: 7px;font-size: 8px;letter-spacing: 0.5px;}
+.devel .df222 {margin: auto;width: 120px;vertical-align: top;padding: 9px 7px;font-size: 9x;letter-spacing: 0.5px;}
 .crono .bfhd, .relas .bfhd {margin-right: 2px;}
 .relas .dfxx {text-align: center;}
 
