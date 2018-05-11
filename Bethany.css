@@ -9,15 +9,15 @@
     text-align: center;
     letter-spacing: 2px;
 }
-.firmabs + .pics a:nth-child(2) {
+.firmabs + .pics a:first-child {
     color: #729db7;
     letter-spacing: -1px;
 }
-.firmabs + .pics a:nth-child(3) {
+.firmabs + .pics a:nth-child(2) {
     color: #8072b7;
     letter-spacing: -2px;
 }
-.firmabs + .pics a:nth-child(4) {
+.firmabs + .pics a:nth-child(3) {
     color: #9a4f4f
 }
 
