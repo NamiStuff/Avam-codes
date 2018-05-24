@@ -6,7 +6,7 @@
 @font-face { font-family: Font Awesome; src: url('https://namistuff.github.io/Avam-codes/Font Awesome 5 Brands-Regular-400.otf'); }
 
 /*Base stats*/
-.status {margin:25px auto;width:170px;border:1px solid #09625d;outline:20px solid #0a0a0aeb;padding:20px;background:#0a0a0aeb; }
+.status {margin:25px auto;width:170px;border:1px solid #405858;outline:20px solid #0a0a0aeb;padding:20px;background:#0a0a0aeb; }
 .status.tema {display:block; width:200px; padding:20px;outline-color: #000000a6; background-color: #000000a6;}
 .status.ks {border-color: #ae70eb;}
 .status .tit {font-size:14px;font-family:raleway;text-align:center;color:#fff; letter-spacing: 1px;}
@@ -14,7 +14,7 @@
 .status .stats {width: auto;margin: 7px auto 0 auto;text-align: left;font-size: 9px;letter-spacing: 1.5px;color:#c3c3c3;}
 .status .stat {width: 85px;display: inline-block;word-spacing: -2px;}
 .status .stats i {font-size: 9px;font-style: normal;color: white;}
-.status .stats span {color:#394341;font-size: 12px;margin: 0 0 0 2px;}
+.status .stats span {color:#405858;font-size: 12px;margin: 0 0 0 2px;}
 .status .stats span + span {color: grey !important; margin: 0;}
 .status.ks .stats span {color: #ae70eb;}
 .status .stats span:first-child {display: inline-block;}
@@ -33,12 +33,12 @@
 
 /*Stats grande*/
 .atrib {margin:auto;} 
-.atrib .icon {width:100px;height:100px;background-size:100px;float: left;border-radius:100%;border:3px solid #394341; margin-right: 5px;} 
+.atrib .icon {width:100px;height:100px;background-size:100px;float: left;border-radius:100%;border:3px solid #405858; margin-right: 5px;} 
 .atrib .fichita {margin-top: 8px;} 
 .atrib .fichita .tit {font-size:14px;font-family:raleway;text-align:center;text-transform: uppercase;color:#fff} 
 .atrib .fichita .subtit {font-size: 12px;color: #fff;text-align: center;letter-spacing: 1px;} .atrib .fichita .stats {margin: 8px auto 0 auto;letter-spacing: 2px; text-align: left;} .atrib .fichita .stat {width: 85px;display: inline-block;} 
 .atrib .fichita .stats u { text-decoration: none; padding: 0 4px 1px; margin: 1px 0; display: inline-block; font-weight: normal; font-size: 9px; letter-spacing: 1px; } 
-.atrib .fichita .stats span {color:#394341;font-size: 13px;} 
+.atrib .fichita .stats span {color:#405858;font-size: 13px;} 
 .atrib .inv {width: auto; display: flex; flex-wrap: wrap; height: auto; max-height: 84px; margin: 20px auto auto; overflow: auto;}
 .atrib .df222 {height: 8px;margin: 0 0 2px 0;flex: 1 0 auto;}
 
@@ -47,15 +47,15 @@
 .versus .pj, .versus .bicho { width: 190px; display: inline-block; margin: auto; } 
 .versus .bicho { margin: -15px auto auto 50px; vertical-align: top; } 
 .versus .bicho:before { content: 'VS'; position: relative; left: -40px; top: 155px; font-family: raleway; letter-spacing: 3px; font-size: 20px; font-style: italic; } 
-.versus .icon { float: none; margin: auto; background-size:100px; width: 100px; height: 100px; border-radius: 100%; border: 3px solid #394341; } 
+.versus .icon { float: none; margin: auto; background-size:100px; width: 100px; height: 100px; border-radius: 100%; border: 3px solid #405858; } 
 .versus .tit { margin-top: 10px; font-size: 12px; font-family: raleway; text-align: center; text-transform: uppercase; color: #fff; } 
 .versus .subtit { font-size: 11px; color: #fff; text-align: center; letter-spacing: 1px; } 
 .versus .stats { font-size: 9px; text-align: left; width: auto; margin: 7px auto 0 auto; color: grey; } 
 .versus .stats u { font-size: 8px; text-decoration: none; padding: 0; margin: 0px; display: inline; font-weight: normal; color: white; letter-spacing: 0.5px;} 
-.versus span {font-size: 12px; color: #394341;} 
+.versus span {font-size: 12px; color: #405858;} 
 .versus .pv { width: 120px; } 
 .versus .stat { width: 70px; display: inline-block; } 
-.versus .stat span { margin-bottom: 5px; color: #394341; } 
+.versus .stat span { margin-bottom: 5px; color: #405858; } 
 .versus .result { width: auto; margin: 15px auto auto auto; display: flex; flex-wrap: wrap; } 
 .versus .result .df222 { width: calc(35%); flex: 1; margin: 1px 0; } .bicho .result .df222:first-child { flex: 0 0 calc(100% - 25px); }
 .versus .desg { margin-top: -302px; background: #111111; position: relative; height: 294px; padding-top:10px; columns: 100px 2; overflow: auto; opacity: 0; -webkit-transition: all .9s ease; transition: all .9s ease; -moz-transition: all .9s ease; -o-transition: all .9s ease;} 
