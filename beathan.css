@@ -17,14 +17,15 @@
 .author-52 .topictitle-image img {
     content: url(http://sig.grumpybumpers.com/host/beaticon.gif);
 }
-.author-52 .postprofile-rank, .author-52 .postprofile-field.postprofile-field-edad .postprofile-field-content { 
+.author-52 .postprofile-field.postprofile-field-edad .postprofile-field-content { 
     visibility: hidden;
 } 
 .author-52 .postprofile-rank:after { 
-    content: 'drama boy'; 
-    position: relative; 
-    top: -14px; 
-    visibility: visible; 
+content: 'drama boy';
+    position: relative;
+    background: #0a0a0a;
+    width: 185px;
+    display: inline-block;
 } 
 .author-52 .postprofile-field.postprofile-field-edad .postprofile-field-content:after { 
     content: '17 años'; 
