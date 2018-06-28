@@ -20,7 +20,7 @@
 .author-52 .postprofile-field.postprofile-field-edad .postprofile-field-content { 
     visibility: hidden;
 } 
-.author-52 .postprofile-rank:after { 
+.author-52 .postprofile-rank:before { 
     content: 'drama boy';
     position: relative;
     background: #0a0a0a;
