@@ -21,11 +21,13 @@
     visibility: hidden;
 } 
 .author-52 .postprofile-rank:after { 
-content: 'drama boy';
+    content: 'drama boy';
     position: relative;
     background: #0a0a0a;
-    width: 185px;
+    width: 150px;
+    left: 49px;
     display: inline-block;
+    text-align: left;
 } 
 .author-52 .postprofile-field.postprofile-field-edad .postprofile-field-content:after { 
     content: '17 años'; 
