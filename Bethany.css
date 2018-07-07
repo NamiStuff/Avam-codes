@@ -1,23 +1,23 @@
-.firmabs {margin:auto;width:190px;height:140px;background-image: url(http://sig.grumpybumpers.com/host/bsfirma.gif);background-size: cover;padding:20px;outline: 1px solid #fff;border: 10px solid #8799a4;outline-offset: -10px;}
+.firmabs {margin:auto;width:190px;height:140px;background-image: url(http://sig.grumpybumpers.com/host/bsfirma.gif);background-size: cover;background-position: left top; padding:20px;outline: 1px solid #fff;border: 10px solid #8799a4;outline-offset: -10px;}
 .firmabs .texto {color: #fff;font-family: 'Sacramento', cursive;font-size: 20px;line-height: 284px;text-align: right;text-shadow: 1px -1px 0px #2E2831;}
 .firmabs2 {width:300px;height:200px;margin:2px auto;background:url('http://s1.postimg.org/5yvkzoddbj/bethany_firma2.png');outline:2px solid #8799a4;border:4px solid #141414;}
 .firmabs2 .texto {width:44px;height:50px;padding:7px 9px 5px;position:relative;background:rgba(23, 23, 23, 0.4);top:119px;left:218px;font-weight:bold;color:white;border:1px solid;font-size:10px;text-align:justify;letter-spacing: 1.5px;}
 .firmabs2 .int {display:block; font-style:italic;font-family:raleway;font-size:14px;margin-left:16px;}
-.firmabs + .pics {
+.firmabs + .pics, .firmabs2 + .pics {
     width: 200px;
     margin: 7px auto -4px auto;
     text-align: center;
     letter-spacing: 2px;
 }
-.firmabs + .pics a:first-child {
+.firmabs + .pics a:first-child, .firmabs2 + .pics a:first-child  {
     color: #729db7;
     letter-spacing: -1px;
 }
-.firmabs + .pics a:nth-child(2) {
+.firmabs + .pics a:nth-child(2), .firmabs2 + .pics a:nth-child(2) {
     color: #8072b7;
     letter-spacing: -2px;
 }
-.firmabs + .pics a:nth-child(3) {
+.firmabs + .pics a:nth-child(3), .firmabs2 + .pics a:nth-child(3) {
     color: #9a4f4f
 }
 
