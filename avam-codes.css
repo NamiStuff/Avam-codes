@@ -68,6 +68,18 @@
 .crono .bfhd, .relas .bfhd {margin-right: 2px;}
 .relas .dfxx {text-align: center;}
 
+/*CSS Trama Global*/
+.tgrom .df3a {border-color: #665770;} 
+.res.tgrom strong {color: #665770;} 
+.rpg.tgrom .nf2avam {border-color: #665770;} 
+.rpg.tgrom .caja .stat, .rpg.tgrom .datos::-webkit-scrollbar-thumb { background: #4c3a54;} 
+.rpg.tgrom c:before {color: #665770}
+.tggri .df3a {border-color: #8a651e;} 
+.res.tggri strong {color: #af8127;} 
+.rpg.tggri .nf2avam {border-color: #C28D23;} 
+.rpg.tggri .caja .stat, .rpg.tggri .datos::-webkit-scrollbar-thumb { background: #8a651e;} 
+.rpg.tggri c:before {color: #8a651e}
+
 /* Selector de color avanzado */
 .colorpicker {
 width: 356px;
