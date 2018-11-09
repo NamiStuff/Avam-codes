@@ -312,6 +312,21 @@ margin-top: -15px;
 .usergroup-group-celtas .expavam-infod, .usergroup-group-celtas .expavam .tbase-text .fa-angle-right, .usergroup-group-celtas .expavam-statb, .usergroup-group-celtas .df2 strong, .usergroup-group-celtas .cuadroinformativo strong {color: #2d3c3ca;}
 .usergroup-group-celtas .expavam-infoicon, .usergroup-group-celtas .bfhd2::-webkit-scrollbar-thumb {background: #2d3c3ca;}
 
+
+/***** VARIACIONES POR GRUPO MINIPERFIL *****/
+.usergroup-group-griegos .postprofile-rank {border-color: #8e6917;}
+.usergroup-group-griegos .postprofile-field-label {border-color: #8e6917;}
+.usergroup-group-griegos .postprofile-contact a:hover {border-color: #8e6917;text-decoration: none;transition:0.5s;}
+.usergroup-group-romanos .postprofile-rank {border-color: #422f4a;}
+.usergroup-group-romanos .postprofile-field-label {border-color: #422f4a;}
+.usergroup-group-romanos .postprofile-contact a:hover {border-color: #422f4a;text-decoration: none;transition:0.5s;}
+.usergroup-group-narradores .postprofile-rank {border-color: #2d3c3c;}
+.usergroup-group-narradores .postprofile-field-label {border-color: #2d3c3c;}
+.usergroup-group-narradores .postprofile-contact a:hover {border-color: #2d3c3c;text-decoration: none;transition:0.5s;}
+.usergroup-group-xx1 .postprofile-rank {border-color: #3F576B;}
+.usergroup-group-xx1 .postprofile-field-label {border-color: #3F576B;}
+.usergroup-group-xx1 .postprofile-contact a:hover {border-color: #3F576B;text-decoration: none;transition:0.5s;}
+
 /* Stats + Tablillas para Tramas*/
 
 .arco.rpg .nf2avam { border-color: #6f2727;} 
