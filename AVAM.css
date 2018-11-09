@@ -300,16 +300,16 @@ margin-top: -15px;
   text-transform: uppercase;
 }
 
-.usergroup-group-griegos .expavam-img, .usergroup-group-griegos .expavam-name, .usergroup-group-griegos .tbase-text, .usergroup-group-griegos .expavam-a, .usergroup-group-griegos .imaf1, .usergroup-group-griegos .exp12, .usergroup-group-griegos .nf, .usergroup-group-griegos .bf1 .nf2avam, .usergroup-group-griegos .imaf111 { border-color: #8e6917;}
-.usergroup-group-griegos .expavam-infod, .usergroup-group-griegos .tbase-text .fa-angle-right, .usergroup-group-griegos .expavam-statb, .usergroup-group-griegos .df2 strong, .usergroup-group-griegos .cuadroinformativo strong {color: #8e6917;}
+.usergroup-group-griegos .expavam-img, .usergroup-group-griegos .expavam-name, .usergroup-group-griegos .expavam .tbase-text, .usergroup-group-griegos .expavam-a, .usergroup-group-griegos .imaf1, .usergroup-group-griegos .exp12, .usergroup-group-griegos .nf, .usergroup-group-griegos .bf1 .nf2avam, .usergroup-group-griegos .imaf111 { border-color: #8e6917;}
+.usergroup-group-griegos .expavam-infod, .usergroup-group-griegos .expavam .tbase-text .fa-angle-right, .usergroup-group-griegos .expavam-statb, .usergroup-group-griegos .df2 strong, .usergroup-group-griegos .cuadroinformativo strong {color: #8e6917;}
 .usergroup-group-griegos .expavam-infoicon, .usergroup-group-griegos .bfhd2::-webkit-scrollbar-thumb {background: #8e6917;}
 
-.usergroup-group-romanos .expavam-img, .usergroup-group-romanos .expavam-name, .usergroup-group-romanos .tbase-text, .usergroup-group-romanos .expavam-a, .usergroup-group-romanos .imaf1, .usergroup-group-romanos .exp12, .usergroup-group-romanos .nf, .usergroup-group-romanos .bf1 .nf2avam, .usergroup-group-romanos .imaf111 { border-color: #422f4a;}
-.usergroup-group-romanos .expavam-infod, .usergroup-group-romanos .tbase-text .fa-angle-right, .usergroup-group-romanos .expavam-statb, .usergroup-group-romanos .df2 strong, .usergroup-group-romanos .cuadroinformativo strong {color: #422f4a;}
+.usergroup-group-romanos .expavam-img, .usergroup-group-romanos .expavam-name, .usergroup-group-romanos .expavam .tbase-text, .usergroup-group-romanos .expavam-a, .usergroup-group-romanos .imaf1, .usergroup-group-romanos .exp12, .usergroup-group-romanos .nf, .usergroup-group-romanos .bf1 .nf2avam, .usergroup-group-romanos .imaf111 { border-color: #422f4a;}
+.usergroup-group-romanos .expavam-infod, .usergroup-group-romanos .expavam .tbase-text .fa-angle-right, .usergroup-group-romanos .expavam-statb, .usergroup-group-romanos .df2 strong, .usergroup-group-romanos .cuadroinformativo strong {color: #422f4a;}
 .usergroup-group-romanos .expavam-infoicon, .usergroup-group-romanos .bfhd2::-webkit-scrollbar-thumb {background: #422f4a;}
 
-.usergroup-group-xx1 .expavam-img, .usergroup-group-xx1 .expavam-name, .usergroup-group-xx1 .tbase-text, .usergroup-group-xx1 .expavam-a, .usergroup-group-xx1 .imaf1, .usergroup-group-xx1 .exp12, .usergroup-group-xx1 .nf, .usergroup-group-xx1 .bf1 .nf2avam, .usergroup-group-xx1 .imaf111 { border-color: #2d3c3ca;}
-.usergroup-group-xx1 .expavam-infod, .usergroup-group-xx1 .tbase-text .fa-angle-right, .usergroup-group-xx1 .expavam-statb, .usergroup-group-xx1 .df2 strong, .usergroup-group-xx1 .cuadroinformativo strong {color: #2d3c3ca;}
+.usergroup-group-xx1 .expavam-img, .usergroup-group-xx1 .expavam-name, .usergroup-group-xx1 .expavam .tbase-text, .usergroup-group-xx1 .expavam-a, .usergroup-group-xx1 .imaf1, .usergroup-group-xx1 .exp12, .usergroup-group-xx1 .nf, .usergroup-group-xx1 .bf1 .nf2avam, .usergroup-group-xx1 .imaf111 { border-color: #2d3c3ca;}
+.usergroup-group-xx1 .expavam-infod, .usergroup-group-xx1 .expavam .tbase-text .fa-angle-right, .usergroup-group-xx1 .expavam-statb, .usergroup-group-xx1 .df2 strong, .usergroup-group-xx1 .cuadroinformativo strong {color: #2d3c3ca;}
 .usergroup-group-xx1 .expavam-infoicon, .usergroup-group-xx1 .bfhd2::-webkit-scrollbar-thumb {background: #2d3c3ca;}
 
 /* Stats + Tablillas para Tramas*/
