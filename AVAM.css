@@ -1,4 +1,4 @@
-﻿﻿@charset "UTF-8";
+@charset "UTF-8";
 
 /* FUENTES */ 
 
@@ -18,13 +18,8 @@
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
-@font-face { font-family: Font Awesome Solid; src: url('https://namistuff.github.io/Avam-codes/Font Awesome 5 Free-Solid-900.otf'); }
-
-@font-face { font-family: Font Awesome; src: url('https://namistuff.github.io/Avam-codes/Font Awesome 5 Brands-Regular-400.otf'); }
-
 
 /* Selector de color avanzado */
-
 
 .colorpicker {
 width: 356px;
@@ -36,11 +31,7 @@ font-family: Arial;
 display: none;
 padding: 0 !important;
 }
-
-.colorpicker.dark{
-background: url(http://i83.servimg.com/u/f83/17/45/19/77/dark11.png) !important;
-}
-
+.colorpicker.dark {background: url(http://i83.servimg.com/u/f83/17/45/19/77/dark11.png) !important;}
 .colorpicker_color {
 width: 150px;
 height: 150px;
@@ -59,7 +50,6 @@ width: 150px;
 height: 150px;
 background: url(http://i83.servimg.com/u/f83/17/45/19/77/colorp10.png);
 }
-
 .colorpicker_color div div {
 position: absolute;
 top: 0;
@@ -70,7 +60,6 @@ overflow: hidden;
 background: url(http://i83.servimg.com/u/f83/17/45/19/77/colorp10.gif);
 margin: -5px 0 0 -5px;
 }
-
 .colorpicker_hue {
 position: absolute;
 top: 13px;
@@ -79,7 +68,6 @@ width: 35px;
 height: 150px;
 cursor: n-resize;
 }
-
 .colorpicker_hue div {
 position: absolute;
 width: 35px;
@@ -89,7 +77,6 @@ background: url(http://i83.servimg.com/u/f83/17/45/19/77/colorp11.gif) left top;
 margin: -4px 0 0 0;
 left: 0px;
 }
-
 .colorpicker_new_color {
 position: absolute;
 width: 60px;
@@ -98,7 +85,6 @@ left: 213px;
 top: 13px;
 background: #f00;
 }
-
 .colorpicker_current_color {
 position: absolute;
 width: 60px;
@@ -107,7 +93,6 @@ left: 283px;
 top: 13px;
 background: #f00;
 }
-
 .colorpicker input {
 background-color: transparent;
 border: 1px solid transparent;
@@ -122,7 +107,6 @@ margin: 0;
 padding: 0 !important;
 height: 11px;
 }
-
 .colorpicker_hex {
 position: absolute;
 width: 72px;
@@ -131,21 +115,14 @@ background: url(http://i83.servimg.com/u/f83/17/45/19/77/custom11.png) top;
 left: 212px;
 top: 142px;
 }
-
-.colorpicker.dark .colorpicker_hex {
-background: url(http://i83.servimg.com/u/f83/17/45/19/77/colorp11.png) top;
-}
-.colorpicker_hex input {
-right: 6px;
-}
-
+.colorpicker.dark .colorpicker_hex {background: url(http://i83.servimg.com/u/f83/17/45/19/77/colorp11.png) top;}
+.colorpicker_hex input {right: 6px;}
 .colorpicker_field {
 height: 22px;
 width: 62px;
 background-position: top;
 position: absolute;
 }
-
 .colorpicker_field span {
 position: absolute;
 width: 12px;
@@ -155,40 +132,27 @@ top: 0;
 right: 0;
 cursor: n-resize;
 }
-
 .colorpicker_rgb_r {
 background-image: url(http://i83.servimg.com/u/f83/17/45/19/77/custom12.png);
 top: 52px;
 left: 212px;
 }
-.
-colorpicker.dark .colorpicker_rgb_r{
+.colorpicker.dark .colorpicker_rgb_r{
 background-image: url(http://i83.servimg.com/u/f83/17/45/19/77/colorp12.png);
 }
-
 .colorpicker_rgb_g {
 background-image: url(http://i83.servimg.com/u/f83/17/45/19/77/custom13.png);
 top: 82px;
 left: 212px;
 }
-
-.colorpicker.dark .colorpicker_rgb_g {
-background-image: url(http://i83.servimg.com/u/f83/17/45/19/77/colorp13.png);
-}
-
+.colorpicker.dark .colorpicker_rgb_g {background-image: url(http://i83.servimg.com/u/f83/17/45/19/77/colorp13.png);}
 .colorpicker_rgb_b {
 background-image: url(http://i83.servimg.com/u/f83/17/45/19/77/custom14.png);
 top: 112px;
 left: 212px;
 }
-.colorpicker.dark .colorpicker_rgb_b {
-background-image: url(http://i83.servimg.com/u/f83/17/45/19/77/colorp14.png);
-}
-
-.colorpicker_hsb_h, .colorpicker_hsb_s, .colorpicker_hsb_b {
-display: none;
-}
-
+.colorpicker.dark .colorpicker_rgb_b {background-image: url(http://i83.servimg.com/u/f83/17/45/19/77/colorp14.png);}
+.colorpicker_hsb_h, .colorpicker_hsb_s, .colorpicker_hsb_b {display: none;}
 .colorpicker_submit {
 position: absolute;
 background: url("http://i83.servimg.com/u/f83/17/45/19/77/accept10.png") no-repeat;
@@ -199,22 +163,10 @@ height: 50px;
 top: 118px;
 overflow: hidden;
 }
-.colorpicker_focus {
-background-position: center;
-}
-
-.colorpicker_hex.colorpicker_focus {
-background-position: bottom;
-}
-
-.colorpicker_submit.colorpicker_focus {
-background-position: bottom;
-}
-
-.colorpicker_slider {
-background-position: bottom;
-}
-
+.colorpicker_focus {background-position: center;}
+.colorpicker_hex.colorpicker_focus {background-position: bottom;}
+.colorpicker_submit.colorpicker_focus {background-position: bottom;}
+.colorpicker_slider {background-position: bottom;}
 .colorpicker { z-index: 3; }
 
 /* EXPEDIENTES */
@@ -227,7 +179,6 @@ background-position: bottom;
   width: 430px;
   margin-bottom: -30px;
 }
-
 .expavam-img {
    display: inline-block; 
   -moz-border-radius: 150px; 
@@ -240,7 +191,6 @@ background-position: bottom;
   height: 150px; 
   background-size: cover; 
 }
-
 .expavam-info {
   width: 225px; 
   margin-left: 25px; 
@@ -254,12 +204,10 @@ background-position: bottom;
   vertical-align: top; 
   display: inline-block;
 }
-
 .expavam-name {
   border-bottom: 1px solid #2a3340; 
   padding-bottom: 10px;
 }
-
 .expavam-infodiv {
   text-align: left; 
   line-height: 9px; 
@@ -271,11 +219,9 @@ background-position: bottom;
   font-family: arial; 
   color: #2a3340;
 }
-
 .expavam-infodiv.b {
 margin-top: -15px;
 }
- 
 .expavam-infoicon {
   -moz-border-radius: 15px; 
   -o-border-radius: 15px; 
@@ -296,23 +242,19 @@ margin-top: -15px;
   padding-top: 6.5px;
   margin-left: 0px;
   }
-
 .expavam-infoicon .fa-university {
   margin-top: -1px;
 }
-
 .expavam-infoicon .ra-radial-balance{
   line-height: 21px;
   font-size: 10px; 
   margin-left: 0px;
 }
-
 .expavam-infoicon .ra-bowie-knife{
   line-height: 20px;
   font-size: 10px; 
   margin-left: -1px;
 }  
-
 .expavam-infot {
   color: #b5b5b5; 
   font-family: calibri; 
@@ -323,7 +265,6 @@ margin-top: -15px;
   display: inline-block; 
   min-width: 70px;
 }
-
 .expavam-infod {
   font-size: 10px;
   letter-spacing: 0px; 
@@ -331,7 +272,6 @@ margin-top: -15px;
   font-family: arial; 
   color: #2a3340;
 }
-
 .expavam-a {
   text-align: left; 
   text-transform: uppercase; 
@@ -343,7 +283,6 @@ margin-top: -15px;
   padding-bottom: 5px; 
   margin-bottom: -20px;
 }
-
 .expavam-stata {
   font-family: calibri; 
   font-size: 9.5px; 
@@ -351,7 +290,6 @@ margin-top: -15px;
   letter-spacing: 1px; 
   text-transform: uppercase;
 }
-
 .expavam-statb {
   font-size: 10px;
   letter-spacing: 0px; 
@@ -360,7 +298,6 @@ margin-top: -15px;
   color: #2a3340; 
   text-transform: uppercase;
 }
-
 
 /* Stats + Tablillas para Tramas*/
 
@@ -376,22 +313,14 @@ margin-top: -15px;
 .daga.rpg .caja .stat, .dagas.rpg .caja .stat, .picaro.rpg .caja .stat, .daga.rpg .df222::-webkit-scrollbar-thumb, .picaro.rpg .df222::-webkit-scrollbar-thumb, .dagas.rpg .df222::-webkit-scrollbar-thumb {background: #27476f !important;} 
 .daga.rpg c:before, .dagas.rpg c:before, .picaro.rpg c:before {color: #27476f;} 
 
-
 .tgrom .df3a {border-color: #665770;} 
-
 .res.tgrom strong {color: #665770;} 
-
 .rpg.tgrom .nf2avam {border-color: #665770;} 
-
 .rpg.tgrom .caja .stat, .rpg.tgrom .datos::-webkit-scrollbar-thumb { background: #4c3a54;} 
-
 .rpg.tgrom c:before {color: #665770}
 
 .tggri .df3a {border-color: #8a651e;} 
 .res.tggri strong {color: #af8127;} 
-
 .rpg.tggri .nf2avam {border-color: #C28D23;} 
-
 .rpg.tggri .caja .stat, .rpg.tggri .datos::-webkit-scrollbar-thumb { background: #8a651e;} 
-
 .rpg.tggri c:before {color: #8a651e}
