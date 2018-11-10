@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* FUENTES */ 
+/**** FUENTES ****/ 
 
 @font-face { font-family: Font Awesome Solid; src: url('https://namistuff.github.io/Avam-codes/Font Awesome 5.5/fa-solid-900.ttf'); }
 @font-face { font-family: Font Awesome; src: url('https://namistuff.github.io/Avam-codes/Font Awesome 5.5/fa-regular-400.ttf'); }
@@ -21,7 +21,6 @@
 }
 
 /* Selector de color avanzado */
-
 .colorpicker {
 width: 356px;
 height: 176px;
@@ -170,8 +169,7 @@ overflow: hidden;
 .colorpicker_slider {background-position: bottom;}
 .colorpicker { z-index: 3; }
 
-/* EXPEDIENTES */
-
+/**** EXPEDIENTES ****/
 .expavam-header {
   background: #0a0a0a; 
   padding: 20px 20px 15px 20px; 
@@ -312,6 +310,8 @@ margin-top: -15px;
 .usergroup-group-celtas .expavam-infod, .usergroup-group-celtas .expavam .tbase-text .fa-angle-right, .usergroup-group-celtas .expavam-statb, .usergroup-group-celtas .expavam .df2 strong, .usergroup-group-celtas .expavam .cuadroinformativo strong {color: #2d3c3ca;}
 .usergroup-group-celtas .expavam-infoicon, .usergroup-group-celtas .expavam .bfhd2::-webkit-scrollbar-thumb {background: #2d3c3ca;}
 
+/**** CSS EXTRA TABLILLAS ****/
+
 
 /***** VARIACIONES POR GRUPO MINIPERFIL *****/
 .usergroup-group-griegos .postprofile-rank {border-color: #8e6917;}
@@ -327,8 +327,7 @@ margin-top: -15px;
 .usergroup-group-xx1 .postprofile-field-label {border-color: #3F576B;}
 .usergroup-group-xx1 .postprofile-contact a:hover {border-color: #3F576B;text-decoration: none;transition:0.5s;}
 
-/* Stats + Tablillas para Tramas*/
-
+/***** TABLILLA DE STATS + TABLILLAS DE TRAMAS *****/
 .rpg { background: #000000a6; color: #f1f1f1; font-family: Arial; font-size: 11px; margin: auto; outline: 1px solid #2c2c2c; outline-offset: -15px; padding: 25px; text-align: justify; width: 391px; } 
 .rpg .pj, .rpg .op { width: 180px; display: inline-block; padding-right: 15px; } 
 .rpg .op { padding: 0 0 0 15px; border-left: 1px solid #2c2c2c; } 
