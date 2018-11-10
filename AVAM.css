@@ -312,6 +312,14 @@ margin-top: -15px;
 
 /**** CSS EXTRA TABLILLAS ****/
 
+.post .content .tbase-text.text-lista strong {
+color: #2a3340;
+font-family: arial;
+font-size: 10px;
+font-weight: 900;
+letter-spacing: 0;
+text-transform: uppercase;
+}
 
 /***** VARIACIONES POR GRUPO MINIPERFIL *****/
 .usergroup-group-griegos .postprofile-rank {border-color: #8e6917;}
