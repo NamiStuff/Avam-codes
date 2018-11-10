@@ -331,9 +331,9 @@ text-transform: uppercase;
 .usergroup-group-narradores .postprofile-rank {border-color: #2d3c3c;}
 .usergroup-group-narradores .postprofile-field-label {border-color: #2d3c3c;}
 .usergroup-group-narradores .postprofile-contact a:hover {border-color: #2d3c3c;text-decoration: none;transition:0.5s;}
-.usergroup-group-xx1 .postprofile-rank {border-color: #3F576B;}
-.usergroup-group-xx1 .postprofile-field-label {border-color: #3F576B;}
-.usergroup-group-xx1 .postprofile-contact a:hover {border-color: #3F576B;text-decoration: none;transition:0.5s;}
+.usergroup-group-celtas .postprofile-rank {border-color: #3F576B;}
+.usergroup-group-celtas .postprofile-field-label {border-color: #3F576B;}
+.usergroup-group-celtas .postprofile-contact a:hover {border-color: #3F576B;text-decoration: none;transition:0.5s;}
 
 /***** TABLILLA DE STATS + TABLILLAS DE TRAMAS *****/
 .rpg { background: #000000a6; color: #f1f1f1; font-family: Arial; font-size: 11px; margin: auto; outline: 1px solid #2c2c2c; outline-offset: -15px; padding: 25px; text-align: justify; width: 391px; } 
