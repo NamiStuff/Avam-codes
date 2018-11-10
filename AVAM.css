@@ -300,17 +300,17 @@ margin-top: -15px;
   text-transform: uppercase;
 }
 
-.usergroup-group-griegos .expavam-img, .usergroup-group-griegos .expavam-name, .usergroup-group-griegos .expavam .tbase-text, .usergroup-group-griegos .expavam .expavam-a, .usergroup-group-griegos .imaf1, .usergroup-group-griegos .exp12, .usergroup-group-griegos .nf, .usergroup-group-griegos .bf1 .nf2avam, .usergroup-group-griegos .imaf111 { border-color: #8e6917;}
-.usergroup-group-griegos .expavam-infod, .usergroup-group-griegos .expavam .tbase-text .fa-angle-right, .usergroup-group-griegos .expavam-statb, .usergroup-group-griegos .df2 strong, .usergroup-group-griegos .cuadroinformativo strong {color: #8e6917;}
-.usergroup-group-griegos .expavam-infoicon, .usergroup-group-griegos .bfhd2::-webkit-scrollbar-thumb {background: #8e6917;}
+.usergroup-group-griegos .expavam-img, .usergroup-group-griegos .expavam-name, .usergroup-group-griegos .expavam .tbase-text, .usergroup-group-griegos .expavam .expavam-a, .usergroup-group-griegos .imaf1, .usergroup-group-griegos .expavam .exp12, .usergroup-group-griegos .nf, .usergroup-group-griegos .expavam .bf1 .nf2avam, .usergroup-group-griegos .expavam .imaf111 { border-color: #8e6917;}
+.usergroup-group-griegos .expavam-infod, .usergroup-group-griegos .expavam .tbase-text .fa-angle-right, .usergroup-group-griegos .expavam-statb, .usergroup-group-griegos .expavam .df2 strong, .usergroup-group-griegos .expavam .cuadroinformativo strong {color: #8e6917;}
+.usergroup-group-griegos .expavam-infoicon, .usergroup-group-griegos .expavam .bfhd2::-webkit-scrollbar-thumb {background: #8e6917;}
 
-.usergroup-group-romanos .expavam-img, .usergroup-group-romanos .expavam-name, .usergroup-group-romanos .expavam .tbase-text, .usergroup-group-romanos .expavam .expavam-a, .usergroup-group-romanos .imaf1, .usergroup-group-romanos .exp12, .usergroup-group-romanos .nf, .usergroup-group-romanos .bf1 .nf2avam, .usergroup-group-romanos .imaf111 { border-color: #422f4a;}
-.usergroup-group-romanos .expavam-infod, .usergroup-group-romanos .expavam .tbase-text .fa-angle-right, .usergroup-group-romanos .expavam-statb, .usergroup-group-romanos .df2 strong, .usergroup-group-romanos .cuadroinformativo strong {color: #422f4a;}
-.usergroup-group-romanos .expavam-infoicon, .usergroup-group-romanos .bfhd2::-webkit-scrollbar-thumb {background: #422f4a;}
+.usergroup-group-romanos .expavam-img, .usergroup-group-romanos .expavam-name, .usergroup-group-romanos .expavam .tbase-text, .usergroup-group-romanos .expavam .expavam-a, .usergroup-group-romanos .imaf1, .usergroup-group-romanos .expavam .exp12, .usergroup-group-romanos .nf, .usergroup-group-romanos .expavam .bf1 .nf2avam, .usergroup-group-romanos .expavam .imaf111 { border-color: #422f4a;}
+.usergroup-group-romanos .expavam-infod, .usergroup-group-romanos .expavam .tbase-text .fa-angle-right, .usergroup-group-romanos .expavam-statb, .usergroup-group-romanos .expavam .df2 strong, .usergroup-group-romanos .expavam .cuadroinformativo strong {color: #422f4a;}
+.usergroup-group-romanos .expavam-infoicon, .usergroup-group-romanos .expavam .bfhd2::-webkit-scrollbar-thumb {background: #422f4a;}
 
-.usergroup-group-celtas .expavam-img, .usergroup-group-celtas .expavam-name, .usergroup-group-celtas .expavam .tbase-text, .usergroup-group-celtas .expavam .expavam-a, .usergroup-group-celtas .imaf1, .usergroup-group-celtas .exp12, .usergroup-group-celtas .nf, .usergroup-group-celtas .bf1 .nf2avam, .usergroup-group-celtas .imaf111 { border-color: #2d3c3ca;}
-.usergroup-group-celtas .expavam-infod, .usergroup-group-celtas .expavam .tbase-text .fa-angle-right, .usergroup-group-celtas .expavam-statb, .usergroup-group-celtas .df2 strong, .usergroup-group-celtas .cuadroinformativo strong {color: #2d3c3ca;}
-.usergroup-group-celtas .expavam-infoicon, .usergroup-group-celtas .bfhd2::-webkit-scrollbar-thumb {background: #2d3c3ca;}
+.usergroup-group-celtas .expavam-img, .usergroup-group-celtas .expavam-name, .usergroup-group-celtas .expavam .tbase-text, .usergroup-group-celtas .expavam .expavam-a, .usergroup-group-celtas .imaf1, .usergroup-group-celtas .expavam .exp12, .usergroup-group-celtas .nf, .usergroup-group-celtas .expavam .bf1 .nf2avam, .usergroup-group-celtas.expavam  .expavam .imaf111 { border-color: #2d3c3ca;}
+.usergroup-group-celtas .expavam-infod, .usergroup-group-celtas .expavam .tbase-text .fa-angle-right, .usergroup-group-celtas .expavam-statb, .usergroup-group-celtas .expavam .df2 strong, .usergroup-group-celtas .expavam .cuadroinformativo strong {color: #2d3c3ca;}
+.usergroup-group-celtas .expavam-infoicon, .usergroup-group-celtas .expavam .bfhd2::-webkit-scrollbar-thumb {background: #2d3c3ca;}
 
 
 /***** VARIACIONES POR GRUPO MINIPERFIL *****/
