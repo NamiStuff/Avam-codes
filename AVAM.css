@@ -328,9 +328,6 @@ text-transform: uppercase;
 .usergroup-group-romanos .postprofile-rank {border-color: #422f4a;}
 .usergroup-group-romanos .postprofile-field-label {border-color: #422f4a;}
 .usergroup-group-romanos .postprofile-contact a:hover {border-color: #422f4a;text-decoration: none;transition:0.5s;}
-.usergroup-group-narradores .postprofile-rank {border-color: #2d3c3c;}
-.usergroup-group-narradores .postprofile-field-label {border-color: #2d3c3c;}
-.usergroup-group-narradores .postprofile-contact a:hover {border-color: #2d3c3c;text-decoration: none;transition:0.5s;}
 .usergroup-group-celtas .postprofile-rank {border-color: #3F576B;}
 .usergroup-group-celtas .postprofile-field-label {border-color: #3F576B;}
 .usergroup-group-celtas .postprofile-contact a:hover {border-color: #3F576B;text-decoration: none;transition:0.5s;}
