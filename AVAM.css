@@ -339,10 +339,10 @@ text-transform: uppercase;
 .rpg .nf2avam { font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 0px;} 
 .rpg .df2avam {font-size: 8px; width:auto; margin-bottom: -10px;} 
 .rpg .caja { height: auto; font-size: 11px; background: #08080894; border: 1px solid #111; font-family: calibri; letter-spacing: 1px; line-height: 8px; margin: 2px; text-transform: uppercase; } 
-.rpg .pj .caja .stat, .rpg .op .caja .stat { width: 20px; display: inline-block; background: #405858; padding: 7px 5px; font-size: 10px; text-align: center; margin-top: 0px; color: white;} 
+.rpg .pj .caja .stat, .rpg .op .caja .stat { width: 20px; display: inline-block; background: #232b3a; padding: 7px 5px; font-size: 10px; text-align: center; margin-top: 0px; color: white;} 
 .rpg .caja.pc, .rpg .caja.pr, .rpg .caja.pe, .rpg .caja.vel {display:inline-block; width: calc(50% - 6px);} 
 .rpg .pj .puntos, .rpg .op .puntos {display: inline-block; margin: auto; width: calc(100% - 30px); text-align: center; vertical-align: top; padding-top: 7px; letter-spacing: 2px; } 
-.rpg c:before {content: '•'; width: 5px; color: #405858; display: inline-block; vertical-align: top; margin-top: -1px;font-size: 10px;} 
+.rpg c:before {content: '•'; width: 5px; color: #232b3a; display: inline-block; vertical-align: top; margin-top: -1px;font-size: 10px;} 
 .rpg c {margin-right: -5px; } .rpg c + c {position: relative; top: 4px;} .rpg c + c + c {top: 0px; left: 4px;} .rpg c + c + c + c { top: 4px; left: 4px;} 
 .rpg c + c + c + c + c { top: 0px; left: 8px;} .rpg c + c + c + c + c + c { top: 4px; left: 8px;}
 .rpg .df222 {width: auto; background: #08080894; overflow: auto; display: block;}
