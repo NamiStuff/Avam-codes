@@ -336,7 +336,7 @@ text-transform: uppercase;
 .rpg { background: #000000a6; color: #f1f1f1; font-family: Arial; font-size: 11px; margin: auto; outline: 1px solid #2c2c2c; outline-offset: -15px; padding: 25px; text-align: justify; width: 391px; } 
 .rpg .pj, .rpg .op { width: 180px; display: inline-block; padding-right: 15px; } 
 .rpg .op { padding: 0 0 0 15px; border-left: 1px solid #2c2c2c; } 
-.rpg .nf2avam { font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;} 
+.rpg .nf2avam { font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 0px;} 
 .rpg .df2avam {font-size: 8px; width:auto; margin-bottom: -10px;} 
 .rpg .caja { height: auto; font-size: 11px; background: #08080894; border: 1px solid #111; font-family: calibri; letter-spacing: 1px; line-height: 8px; margin: 2px; text-transform: uppercase; } 
 .rpg .pj .caja .stat, .rpg .op .caja .stat { width: 20px; display: inline-block; background: #405858; padding: 7px 5px; font-size: 10px; text-align: center; margin-top: 0px; color: white;} 
