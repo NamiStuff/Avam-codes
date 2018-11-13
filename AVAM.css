@@ -176,7 +176,7 @@ overflow: hidden;
   margin: auto; 
   font-family: arial; 
   width: 430px;
-  margin-bottom: -30px;
+  margin-bottom: -35px;
 }
 .expavam-img {
    display: inline-block; 
@@ -193,7 +193,6 @@ overflow: hidden;
 .expavam-info {
   width: 225px; 
   margin-left: 25px; 
-  margin-top: 5px;
   text-align: center;
   text-transform: uppercase; 
   font-size: 14px; 
@@ -211,7 +210,7 @@ overflow: hidden;
   text-align: left; 
   line-height: 9px; 
   width: 250px; 
-  margin-top: -5px;
+  margin-top: -15px;
   font-size: 10px;
   letter-spacing: 0px; 
   font-weight: 900; 
