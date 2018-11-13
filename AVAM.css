@@ -320,6 +320,10 @@ letter-spacing: 0;
 text-transform: uppercase;
 }
 
+.aa { margin: auto; height: 100px; width: 270px; } 
+.ac { background: #0a0a0a; color: #b1b1b1; font-family: arial; font-size: 15px; font-weight: 900; height: 26px; line-height: 25px; overflow: hidden; padding: 10px; position: relative; text-align: center; text-transform: uppercase; border-bottom: 2px solid #2a3340;}
+.ad { background: #0a0a0a; font-family: arial; margin: 0px auto auto auto; border-top: 1px solid #191919; width: 230px !important; height: auto; font-size: 10px!important; padding: 20px !important; line-height: 15px !important; color: #b5b5b5; text-transform: none; font-weight: normal; text-align: justify; }
+
 /*Tablilla del Sistema de Entrenamientos*/
 
 .entcaja1 {
