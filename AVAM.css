@@ -342,6 +342,7 @@ text-transform: uppercase;
   margin-top: 3px;
 }
 .entcaja2 {
+  vertical-align: top;
   width: 90px;
   height: 90px;
   background-color: #0f0f0f;
