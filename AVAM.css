@@ -410,39 +410,37 @@ text-transform: uppercase;
   letter-spacing: 1.5px;
 }
 .datosm {
-  vertical-align: top;
-  display: inline-block;
-  font-size: 9.5px;
-  font-family: arial;
-  height: 71px;
-  font-weight: 900;
-  padding: 10px;
-  margin-left: 2px;
-  border: 1px solid #131212;
-  background: #0b0b0b;
-  margin-top: 1px;
-  width: 163px;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 9.5px;
+    font-family: arial;
+    height: 71px;
+    font-weight: 900;
+    padding: 10px;
+    margin-left: 2px;
+    border: 1px solid #131212;
+    background: #0b0b0b;
+    margin-top: 1px;
+    width: 163px;
 }
 .datosm .col {
-  display: inline-block;
-  width: 80px;
-  margin-top: 4px;
-  line-height: 10px;
-}
-rdatom {
-  color: #f1f1f1;
-  font-family: calibri;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 400;
-  font-size: 7px;
-  display: block;
+    display: inline-block;
+    width: 80px;
+    margin-top: 3px;
+    line-height: 10px;
 }
 datom {
-  height: 15px;
-  margin-bottom: -3px;
-  display: block;
-  line-height: 14px;
+    margin: 3px 0 -1px;
+    display: block;
+}
+rdatom {
+    color: #f1f1f1;
+    font-family: calibri;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 7px;
+    display: block;
 }
 .temas-icon {
   width: 25px;
