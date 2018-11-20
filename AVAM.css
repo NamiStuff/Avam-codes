@@ -442,6 +442,7 @@ datom {
   height: 15px;
   margin-bottom: -3px;
   display: block;
+  line-height: 14px;
 }
 .temas-icon {
   width: 25px;
@@ -467,7 +468,7 @@ datom {
     background: #0b0b0b;
     margin-top: 2px;
     overflow:auto;
-    width: 199px;
+    width: 200px;
 }
 .imagentbr {
     width: 90px;
