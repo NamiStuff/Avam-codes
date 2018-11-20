@@ -466,7 +466,7 @@ rdatom {
     background: #0b0b0b;
     margin-top: 2px;
     overflow:auto;
-    width: 200px;
+    width: 199px;
 }
 .imagentbr {
     width: 90px;
@@ -474,7 +474,7 @@ rdatom {
     vertical-align: top;
     display: inline-block;
     margin-top: 3px;
-    margin-left: -1px;
+    margin-left: 2px;
     border: 10px solid #0b0b0b;
     outline: 1px solid #131212;
 }
