@@ -479,7 +479,6 @@ rdatom {
     outline: 1px solid #131212;
 }
 
-
 /*MISIONES*/
 .misiones {line-height: 10px;} 
 .misiones i {border-right: 1px solid #2a3340;color: #2a3340; padding-right: 4px; margin-right: 5px; height: 15px; min-width: 16px; text-align: center; } 
@@ -488,6 +487,19 @@ rdatom {
 .misiones .click {border-bottom: 0px; vertical-align: top; display: inline-block; font-family: Calibri;font-size: 8px;font-weight: 900; letter-spacing: 1px;text-transform: uppercase; margin-top: 3px;} 
 .misiones .click i {border-right: 0px; margin-left: -4px;} .misiones .info {line-height: 16px; margin-top: -10px; font-size: 11px;} 
 .misiones .expavam-a {line-height: 20px; margin-bottom: -7px;}
+
+/*** BESTIARIO ***/
+.col1, .col2 { display: inline-block; vertical-align: top; width: 192px; } 
+.col1 .info {width: 389px;} .col2 .info { margin-left: -197px; } 
+.bestiario .click {border-bottom: 0px; vertical-align: top; display: inline-block; font-family: calibri; font-size: 8px; font-weight: 900; letter-spacing: 1px; text-transform: uppercase; margin-top: -5px; margin-left: 10px;} 
+.bestiario.grupal .click i {color: #75684c;} .bestiario.celta .click i {color: #3f576b;} .bestiario.otros .click i {color: #636363;} 
+.bestiario .info.grupal {border-top: 1px solid #75684c; padding-top: 5px; margin-top: 0px; font-size: 11px; font-style: normal; margin-bottom: 10px;} 
+.bestiario .info.otros {border-top: 1px solid #636363; padding-top: 5px; margin-top: 0px; font-size: 11px; font-style: normal; margin-bottom: 10px;} 
+.bestiario .info.celta {border-top: 1px solid #3f576b; padding-top: 5px; margin-top: 0px; font-size: 11px; font-style: normal; margin-bottom: 10px;} 
+.info.grupal i { color: #75684c;} .info.celta i { color: #3f576b;} .info.otros i { color: #636363;} 
+.bestiarioinfo {display: inline-block; line-height: 10px; margin-left: 10px; vertical-align: top; margin-top: -10px;}
+.tbase-destacado.celta {color: #3f576b;} .cr-icon.celta { background-color: #3f576b;} 
+.tbase-destacado.otros {color: #636363;} .cr-icon.otros { background-color: #636363;}
 
 /***** VARIACIONES POR GRUPO MINIPERFIL *****/
 .usergroup-group-griegos .postprofile-rank {border-color: #8e6917;}
