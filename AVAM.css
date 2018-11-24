@@ -513,45 +513,46 @@ rdatom {
 .usergroup-group-celtas .postprofile-contact a:hover {border-color: #3F576B;text-decoration: none;transition:0.5s;}
 
 /***** TABLILLA DE STATS + TABLILLAS DE TRAMAS *****/
-.rpg { background: #0a0a0a; font-family: Arial; font-size: 11px; margin: auto; padding: 20px; text-align: justify; width: 395px; }
-.rpg .pj, .rpg .op { width: 182px; display: inline-block; padding-right: 15px; }
-.rpg .op {padding: 0 0 0 15px;border-left: 1px solid #232b3a;}
-.rpg .nf2avam { letter-spacing: -.5px; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 0px; }
-.rpg .df2avam {font-size: 8px; width:auto; margin-bottom: -10px;} 
-.rpg .caja { height: auto; font-size: 11px; background: #040404; border: 1px solid #111; font-family: calibri; letter-spacing: 1px; line-height: 8px; margin: 2px; text-transform: uppercase;}
-.rpg .pj .caja .stat, .rpg .op .caja .stat { width: 20px; display: inline-block; background: #232b3a; padding: 7px 5px; font-size: 10px; text-align: center; margin-top: 0px;}
+.rpg { background: #0a0a0a; font-family: arial; font-size: 11px; margin: auto; padding: 20px; text-align: justify; width: 380px;}
+.rpg .pj, .rpg .op { width: 182px; display: inline-block; padding-right: 15px;}
+.rpg .op { padding: 0; border-left: 0px solid #232b3a;}
+.rpg .nf2avam { letter-spacing: -.5px; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 0px;}
+.rpg .df2avam { font-size: 8px; width: auto; margin-bottom: -10px;}
+.rpg .caja { height: auto; background: #060606; border: 1px solid #111; font-family: calibri; letter-spacing: .5px; line-height: 8px; margin: 2px; text-transform: uppercase;}
+.rpg .pj .caja .stat, .rpg .op .caja .stat { width: 19px; display: inline-block; color: #333f56; font-weight: 900; padding: 7px 5px; font-size: 9px; text-align: center; margin-top: 0px; border-right: 1px solid #0a0a0a; font-family: arial; background: #040404;}
 .rpg .caja.pc, .rpg .caja.pr, .rpg .caja.pe, .rpg .caja.vel {display:inline-block; width: calc(50% - 6px);} 
 .rpg .pj .puntos, .rpg .op .puntos {display: inline-block; margin: auto; width: calc(100% - 30px); text-align: center; vertical-align: top; padding-top: 7px; letter-spacing: 2px; } 
-.rpg c:before {content: '•'; width: 5px; color: #232b3a; display: inline-block; vertical-align: top; margin-top: -1px;font-size: 10px;} 
+.rpg c:before {content: '•'; width: 5px; color: #333f56; display: inline-block; vertical-align: top; margin-top: -1px;font-size: 10px;} 
 .rpg c {margin-right: -5px; } .rpg c + c {position: relative; top: 4px;} .rpg c + c + c {top: 0px; left: 4px;} .rpg c + c + c + c { top: 4px; left: 4px;} 
 .rpg c + c + c + c + c { top: 0px; left: 8px;} .rpg c + c + c + c + c + c { top: 4px; left: 8px;}
 .rpg .df222 { width: auto; background: #040404; overflow: auto; display: block; }
-.rpg .datos { margin: 7px 3px 0 3px; font-size: 9px; line-height: 12px; font-variant: small-caps; letter-spacing: 0.5px; }
-.rpg .datos strong {color: #333f56;}
+.rpg .datos { margin: 7px 3px 0 3px; font-size: 9px; line-height: 12px; letter-spacing: 0.5px;}
+.rpg .datos strong { color: #2a3340; text-transform: uppercase; font-family: arial; font-weight: 900; font-size: 9px;}
 
 .rpg.mini { width: 230px; }
 .rpg.mini .pj { width: 100%; padding: 0px; }
 
-.arco.rpg .nf2avam { border-color: #6f2727;} 
-.arco.rpg .caja .stat, .arco.rpg .df222::-webkit-scrollbar-thumb {background: #6f2727 !important;} 
-.lanza.rpg .nf2avam { border-color: #736e8e;} 
-.lanza.rpg .caja .stat, .lanza.rpg .df222::-webkit-scrollbar-thumb {background: #736e8e !important;} 
-.maza.rpg .nf2avam { border-color: #707070;} 
-.maza.rpg .caja .stat, .maza.rpg .df222::-webkit-scrollbar-thumb {background: #707070 !important;} 
+.arco.rpg .nf2avam { border-color: #6f2727;} .arco.rpg .caja .stat {color: #6f2727;}
+.arco.rpg .df222::-webkit-scrollbar-thumb {background: #6f2727 !important;} 
+.lanza.rpg .nf2avam { border-color: #736e8e;} .lanza.rpg .caja .stat {color: #736e8e;}
+.lanza.rpg .df222::-webkit-scrollbar-thumb {background: #736e8e !important;} 
+.maza.rpg .nf2avam { border-color: #707070;} .maza.rpg .caja .stat {color: #707070;}
+.maza.rpg .df222::-webkit-scrollbar-thumb {background: #707070 !important;} 
 .espada.rpg .nf2avam, .escudo.rpg .nf2avam, .desarmado.rpg .nf2avam{ border-color: #34694e;} 
-.espada.rpg .caja .stat, .escudo.rpg .caja .stat, .desarmado.rpg .caja .stat, .espada.rpg .df222::-webkit-scrollbar-thumb, .desarmado.rpg .df222::-webkit-scrollbar-thumb {background: #34694e !important;} 
+.espada.rpg .caja .stat, .escudo.rpg .caja .stat, .desarmado.rpg .caja .stat {color: #34694e;}
+.espada.rpg .df222::-webkit-scrollbar-thumb, .desarmado.rpg .df222::-webkit-scrollbar-thumb {background: #34694e !important;} 
 .daga.rpg .nf2avam, .dagas.rpg .nf2avam, .picaro.rpg .nf2avam { border-color: #27476f;} 
-.daga.rpg .caja .stat, .dagas.rpg .caja .stat, .picaro.rpg .caja .stat, .daga.rpg .df222::-webkit-scrollbar-thumb, .picaro.rpg .df222::-webkit-scrollbar-thumb, .dagas.rpg .df222::-webkit-scrollbar-thumb {background: #27476f !important;} 
+.daga.rpg .caja .stat, .dagas.rpg .caja .stat, .picaro.rpg .caja .stat {color: #27476f;} 
+.daga.rpg .df222::-webkit-scrollbar-thumb, .picaro.rpg .df222::-webkit-scrollbar-thumb, .dagas.rpg .df222::-webkit-scrollbar-thumb {background: #27476f !important;} 
 .daga.rpg c:before, .dagas.rpg c:before, .picaro.rpg c:before {color: #27476f;} 
 
 .tgrom .df3a {border-color: #665770;} 
-.res.tgrom strong {color: #665770;} 
+.rpg.tgrom .caja .stat, .res.tgrom strong {color: #665770;} 
 .rpg.tgrom .nf2avam {border-color: #665770;} 
-.rpg.tgrom .caja .stat, .rpg.tgrom .datos::-webkit-scrollbar-thumb { background: #4c3a54;} 
+.rpg.tgrom .datos::-webkit-scrollbar-thumb { background: #4c3a54;} 
 .rpg.tgrom c:before {color: #665770}
-
 .tggri .df3a {border-color: #8a651e;} 
-.res.tggri strong {color: #af8127;} 
+.rpg.tggri .caja .stat, .res.tggri strong {color: #af8127;} 
 .rpg.tggri .nf2avam {border-color: #C28D23;} 
-.rpg.tggri .caja .stat, .rpg.tggri .datos::-webkit-scrollbar-thumb { background: #8a651e;} 
+.rpg.tggri .datos::-webkit-scrollbar-thumb { background: #8a651e;} 
 .rpg.tggri c:before {color: #8a651e}
