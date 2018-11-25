@@ -421,7 +421,8 @@ text-transform: uppercase;
     border: 1px solid #131212;
     background: #0b0b0b;
     margin-top: 1px;
-    width: 163px;
+    width: 163px;  
+    color: #273040;
 }
 .datosm .col {
     display: inline-block;
@@ -478,6 +479,8 @@ rdatom {
     border: 10px solid #0b0b0b;
     outline: 1px solid #131212;
 }
+
+http://avam-rpg.foroactivo.com/t2463-macconaill-devon
 
 /*MISIONES*/
 .misiones {line-height: 10px;} 
