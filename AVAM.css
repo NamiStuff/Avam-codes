@@ -480,7 +480,10 @@ rdatom {
     outline: 1px solid #131212;
 }
 
-http://avam-rpg.foroactivo.com/t2463-macconaill-devon
+.bt1 {margin:auto;background:#0a0a0a;color:#b5b5b5;font-family:arial;font-size:12px;font-weight:400; padding:40px; text-align:justify;width:377px} 
+.tinformacion {font-size:9.5px; font-family:arial; height:185px; color:#ccc; background:#0b0b0b;overflow:auto; width:170px;float:right; padding-right:3px; border: 10px solid #0b0b0b; outline: #131212 solid 1px;} 
+.imgtb {width:160px;height:90px; border:10px solid #0b0b0b; outline:#131212 solid 1px} 
+.bt1 .datosm {margin: 3px 0 0 -1px;width: 160px;}
 
 /*MISIONES*/
 .misiones {line-height: 10px;} 
