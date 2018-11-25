@@ -367,123 +367,28 @@ text-transform: uppercase;
 }
 
 /*** TABLILLA BÚSQUEDA ***/
-.busquedatab {
-    margin: auto;
-    background: #0a0a0a;
-    color: #b5b5b5;
-    font-family: arial;
-    font-size: 12px;
-    font-weight: normal;
-    padding: 40px;
-    text-align: justify;
-    width: 335px;
-}
-.cnombrem {
-  height: 53px;
-  margin-top: 1px;
-  width: 108px;
-  padding: 19px;
-  vertical-align: top;
-  display: inline-block;
-  border: 1px solid #131212;
-  background: #0b0b0b;
-}
-.nom {
-  vertical-align: top;
-  display: inline-block;
-  width: 115px;
-  font-size: 20px;
-  text-align: center;
-  font-family: arial;
-  text-transform: uppercase;
-  font-weight: 900;
-}
-.textonombre {
-  width: 105px;
-  font-family: verdana;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 5.4px;
-  text-align: justify;
-  margin-left: 5px;
-  line-height: 10px;
-  letter-spacing: 1.5px;
-}
-.datosm {
-    vertical-align: top;
-    display: inline-block;
-    font-size: 9.5px;
-    font-family: arial;
-    height: 71px;
-    font-weight: 900;
-    padding: 10px;
-    margin-left: 2px;
-    border: 1px solid #131212;
-    background: #0b0b0b;
-    margin-top: 1px;
-    width: 163px;  
-    color: #273040;
-}
-.datosm .col {
-    display: inline-block;
-    width: 80px;
-    margin-top: 3px;
-    line-height: 10px;
-}
-datom {
-    margin: 3px 0 -1px;
-    display: block;
-}
-rdatom {
-    color: #f1f1f1;
-    font-family: calibri;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-    font-size: 7px;
-    display: block;
-}
-.temas-icon {
-  width: 25px;
-  height: 20px;
-  margin-top: 1px;
-  margin-right: 5px;
-  text-align: Center;
-  font-weight: 900;
-  background:#111;
-  float: left;
-  font-family: Arial;
-  line-height: 19px;
-}
-.extrainfo {    
-    vertical-align: top;
-    display: inline-block;
-    font-size: 9.5px;
-    font-family: arial;
-    height: 90px;
-    padding: 10px;
-    color: #ccc;
-    border: 1px solid #131212;
-    background: #0b0b0b;
-    margin-top: 2px;
-    overflow:auto;
-    width: 199px;
-}
-.imagentbr {
-    width: 90px;
-    height: 90px;
-    vertical-align: top;
-    display: inline-block;
-    margin-top: 3px;
-    margin-left: 2px;
-    border: 10px solid #0b0b0b;
-    outline: 1px solid #131212;
-}
+.busquedatab { margin: auto; background: #0a0a0a; color: #b5b5b5; font-family: arial; font-size: 12px; font-weight: normal; padding: 40px; text-align: justify; width: 335px; } 
+.cnombrem { height: 53px; margin-top: 1px; width: 108px; padding: 19px; vertical-align: top; display: inline-block; border: 1px solid #131212; background: #0b0b0b; } 
+.nom { vertical-align: top; display: inline-block; width: 115px; font-size: 20px; text-align: center; font-family: arial; text-transform: uppercase; font-weight: 900; } 
+.textonombre { width: 105px; font-family: verdana; color: #fff; text-transform: uppercase; font-size: 5.4px; text-align: justify; margin-left: 5px; line-height: 10px; letter-spacing: 1.5px; } 
+.datosm { vertical-align: top; display: inline-block; font-size: 9.5px; font-family: arial; height: 71px; font-weight: 900; padding: 10px; margin-left: 2px; border: 1px solid #131212; background: #0b0b0b; margin-top: 1px; width: 163px; color: #273040; } 
+.datosm .col { display: inline-block; width: 80px; margin-top: 3px; line-height: 10px; } 
+datom { margin: 3px 0 -1px; display: block; } 
+rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter-spacing: 1px; font-weight: 400; font-size: 7px; display: block; } 
+.temas-icon { width: 25px; height: 20px; margin-top: 1px; margin-right: 5px; text-align: Center; font-weight: 900; background:#111; float: left; font-family: Arial; line-height: 19px; } 
+.extrainfo { vertical-align: top; display: inline-block; font-size: 9.5px; font-family: arial; height: 90px; padding: 10px; color: #ccc; border: 1px solid #131212; background: #0b0b0b; margin-top: 2px; overflow:auto; width: 199px; } 
+.imagentbr { width: 90px; height: 90px; vertical-align: top; display: inline-block; margin-top: 3px; margin-left: 2px; border: 10px solid #0b0b0b; outline: 1px solid #131212; }
 
 .bt1 {margin:auto;background:#0a0a0a;color:#b5b5b5;font-family:arial;font-size:12px;font-weight:400; padding:40px; text-align:justify;width:377px} 
 .tinformacion {font-size:9.5px; font-family:arial; height:185px; color:#ccc; background:#0b0b0b;overflow:auto; width:170px;float:right; padding-right:3px; border: 10px solid #0b0b0b; outline: #131212 solid 1px;} 
 .imgtb {width:160px;height:90px; border:10px solid #0b0b0b; outline:#131212 solid 1px} 
 .bt1 .datosm {margin: 3px 0 0 -1px;width: 160px;}
+
+.bt11 { margin: auto; background: #0a0a0a; color: #b5b5b5; font-family: arial; font-size: 11px; font-weight: normal; padding: 40px; text-align: justify; width: 383px; } 
+.gcontainer1 { border: 10px solid #0b0b0b; outline: #131212 solid 1px; width: 170px; margin: auto; display: inline-block; } 
+.z-info { font-family:arial; font-size: 10px; font-weight: 900; text-transform: uppercase; text-align: center; line-height: 170%; margin-top: 5px; } 
+.z-info-mini { text-align: center; font-family: calibri; font-size: 8px; text-transform: uppercase; letter-spacing: 1px; color: #b5b5b5; margin-top: -5px; } 
+.ch-text { width: 170px; padding: 5px 5px 0px 0px; overflow: auto!important; height: 65px; font-family: arial; font-size: 10px; line-height: 100%; text-align: justify; color: #afafaf; margin: auto; }
 
 /*MISIONES*/
 .misiones {line-height: 10px;} 
