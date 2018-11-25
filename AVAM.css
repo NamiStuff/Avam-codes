@@ -384,8 +384,8 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .imgtb {width:160px;height:90px; border:10px solid #0b0b0b; outline:#131212 solid 1px} 
 .bt1 .datosm {margin: 3px 0 0 -1px;width: 160px;}
 
-.bt11 { margin: auto; background: #0a0a0a; color: #b5b5b5; font-family: arial; font-size: 11px; font-weight: normal; padding: 40px; text-align: justify; width: 383px; } 
-.gcontainer { border: 10px solid #0b0b0b; outline: #131212 solid 1px; width: 170px; margin: auto; display: inline-block; } 
+.bt11 { margin: auto; background: #0a0a0a; color: #b5b5b5; font-family: arial; font-size: 11px; font-weight: normal; padding: 40px; text-align: justify; width: 382px; } 
+.gcontainer { background: #0b0b0b; border: 10px solid #0b0b0b; outline: #131212 solid 1px; width: 168px; margin: auto; display: inline-block; } 
 .z-info { font-family:arial; font-size: 10px; font-weight: 900; text-transform: uppercase; text-align: center; line-height: 170%; margin-top: 5px; } 
 .z-info-mini { text-align: center; font-family: calibri; font-size: 8px; text-transform: uppercase; letter-spacing: 1px; color: #b5b5b5; margin-top: -5px; } 
 .ch-text { width: 170px; padding: 5px 5px 0px 0px; overflow: auto!important; height: 65px; font-family: arial; font-size: 10px; line-height: 100%; text-align: justify; color: #afafaf; margin: auto; }
@@ -394,8 +394,8 @@ rdatom { color: #f1f1f1; font-family: calibri; text-transform: uppercase; letter
 .misiones {line-height: 10px;} 
 .misiones i {border-right: 1px solid #2a3340;color: #2a3340; padding-right: 4px; margin-right: 5px; height: 15px; min-width: 16px; text-align: center; } 
 .misiones .fas.fa-dollar-sign {font-size: 14px;} 
-.misiones-info {vertical-align: top; display: inline-block; font-family: Calibri;font-size: 8.5px;font-weight: 900; letter-spacing: 0px; text-transform: uppercase; margin-top: 3px; } 
-.misiones .click {border-bottom: 0px; vertical-align: top; display: inline-block; font-family: Calibri;font-size: 8px;font-weight: 900; letter-spacing: 1px;text-transform: uppercase; margin-top: 3px;} 
+.misiones-info {vertical-align: top; display: inline-block; font-family: calibri;font-size: 8.5px;font-weight: 900; letter-spacing: 0px; text-transform: uppercase; margin-top: 3px; } 
+.misiones .click {border-bottom: 0px; vertical-align: top; display: inline-block; font-family: calibri;font-size: 8px;font-weight: 900; letter-spacing: 1px;text-transform: uppercase; margin-top: 3px;} 
 .misiones .click i {border-right: 0px; margin-left: -4px;} .misiones .info {line-height: 16px; margin-top: -10px; font-size: 11px;} 
 .misiones .expavam-a {line-height: 20px; margin-bottom: -7px;}
 
