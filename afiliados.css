@@ -16,6 +16,7 @@
 .avam {padding-top: 75px; text-shadow: 2px 0 0 black;} 
 .avam-link {margin-top: 40px;} 
 .postbody .avam-link a, .postbody .avam-link a:link, .postbody .avam-link a:active, .postbody .avam-link a:hover, .postbody .avam-link a:visited {color: #d8d8d8;}
-.tbase-text dl.codebox { font-size: 11px; margin: 5px; background: #040404; padding: 15px 15px 5px; color: #b5b5b5; border: 0; } 
+.tbase-text dl.codebox { font-size: 11px; margin: 5px; background: #040404; padding: 15px 15px 5px; color: #b5b5b5; border: 0;  text-align: center;} 
 .tbase-text dl.codebox dt {font-style: normal; color: #2a3340; font-family: arial; font-size: 10px; font-weight: 900; margin: -7px -7px 0px; text-align: center; text-transform: uppercase; background: #040404; padding: 0 0 5px; border-bottom: 2px solid #0a0a0a !important; letter-spacing: 0;} 
+.tbase-text .spoiler .spoiler_content { margin-top: 5px; } 
 .tbase-text dl.codebox code { color: #e3e3e3; font-size: 11px; font-family: arial;}
