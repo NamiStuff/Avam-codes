@@ -11,7 +11,7 @@
 
 .tbase.afiliacion { width: 470px;height: 200px; margin: auto;} 
 .afiliacion .tbase-titulo2 { height: 200px;color: #dcd9d9; letter-spacing: -4px;line-height: 15px; padding: 0; font-family: arial; font-weight: 900; text-transform: uppercase; text-align: center; } 
-.afiliacion .tbase-text { background: #0a0a0a; width: 390px; padding: 40px; font-family: arial; font-size: 12px; color: #b5b5b5; text-transform: none; font-weight: normal; text-align: justify; margin: auto; margin-top: 0px; border-top: 4px solid #2a3340;} 
+.tbase-text.afiliacion { background: #0a0a0a; width: 390px; padding: 40px; font-family: arial; font-size: 12px; color: #b5b5b5; text-transform: none; font-weight: normal; text-align: justify; margin: auto; margin-top: 0px; border-top: 4px solid #2a3340;} 
 .avamtab1 { font-size: 8px;letter-spacing: 2px;line-height: 10px;margin-top: 15px;font-family: calibri;} 
 .avam {padding-top: 75px; text-shadow: 2px 0 0 black;font-size: 41px;} 
 .avam-link {margin-top: 40px;} 
