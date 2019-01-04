@@ -22,22 +22,22 @@
 }
 .ki .mtc {
     background: #000;
-    width: 70px;
+    width: 80px;
     height: 130px;
-    padding: 20px 10px;
+    padding: 20px 5px;
     border: 1px solid #000;
     vertical-align: top;
     display: inline-block;
     color: #ccccccbd;
-    font-size: 5.3px;
+    font-size: 4.5px;
     text-transform: uppercase;
     font-family: verdana;
     letter-spacing: 1px;
     line-height: 10px;
+    text-align: center;
 }
 .ki .mticon {
-    font-size: 29px;
+    font-size: 30px;
     display: block;
-    text-align: center;
-    margin: 12px 0;
+    margin: 30px 0 14px;
 }
