@@ -327,7 +327,7 @@ text-transform: uppercase;
 /*Tablilla del Sistema de Entrenamientos*/
 
 .entcaja1 {
-  width: 77px;
+  width: 90px;
   height: 25px;
   background-color: #040404;
   display: inline-block;
@@ -343,8 +343,8 @@ text-transform: uppercase;
 }
 .entcaja2 {
   vertical-align: top;
-  width: 77px;
-  height: 75px;
+  width: 90px;
+  height: 85px;
   background-color: #0f0f0f;
   display: inline-block;
   margin-left: 1px;
