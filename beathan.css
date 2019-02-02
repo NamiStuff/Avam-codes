@@ -1,8 +1,8 @@
 .author-52 .postprofile a strong:after {
     content: 'Beathan';
-    background: #000000;
+    background: #0a0a0a;
     position: relative;
-    left: -102px;
+    left: -94px;
 }
 .author-52 .postprofile-avatar img {
     content: url(https://i.imgur.com/SFLF7HN.png);
@@ -11,8 +11,8 @@
     content: 'Beathan';
     position: relative;
     left: -54px;
-    background: #000000;
-    margin-left: -43px;
+    background: #0a0a0a;
+    margin-left: -45px;
 }
 .author-52 .topictitle-image img {
     content: url(http://sig.grumpybumpers.com/host/beaticon.gif);
