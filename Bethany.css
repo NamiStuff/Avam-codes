@@ -4,9 +4,8 @@
     background-image: url(http://sig.grumpybumpers.com/host/bsfirma.gif);
     background-size: cover;
     background-position: right top; 
-    /*padding:20px;
-    border: 10px solid #9a4f4f;*/
-    outline: 1px solid #f3f3f3a6;
+    border: 10px solid #9a4f4f;
+    outline: 1px solid #fff;
     outline-offset: -10px;
 }
 .firmabs .texto {
