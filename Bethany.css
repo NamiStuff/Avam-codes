@@ -1,8 +1,37 @@
-.firmabs {margin:auto;width:190px;height:140px;background-image: url(http://sig.grumpybumpers.com/host/bsfirma.gif);background-size: cover;background-position: right top; padding:20px;outline: 1px solid #fff;border: 10px solid #9a4f4f;outline-offset: -10px;}
-.firmabs .texto {color: #fff;font-family: 'Sacramento', cursive;font-size: 20px;line-height: 284px;text-align: right;text-shadow: 1px -1px 0px #2E2831;}
-.firmabs2 {width:300px;height:200px;margin:2px auto;background:url('http://s1.postimg.org/5yvkzoddbj/bethany_firma2.png');outline:2px solid #8799a4;border:4px solid #141414;}
-.firmabs2 .texto {width:44px;height:50px;padding:7px 9px 5px;position:relative;background:rgba(23, 23, 23, 0.4);top:119px;left:218px;font-weight:bold;color:white;border:1px solid;font-size:10px;text-align:justify;letter-spacing: 1.5px;}
+.firmabs {
+    margin:auto;width:300px;
+    height:190px;
+    background-image: url(http://sig.grumpybumpers.com/host/bsfirma.gif);
+    background-size: cover;
+    background-position: right top; 
+    /*padding:20px;
+    border: 10px solid #9a4f4f;*/
+    outline: 1px solid #f3f3f3a6;
+    outline-offset: -10px;
+}
+.firmabs .texto {
+    color: #fff;font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    line-height: 284px;
+    text-align: right;
+    text-shadow: 1px -1px 0px #2E2831;
+}
+.firmabs2 {
+    width:300px;height:200px;
+    margin:2px auto;
+    background:url('http://s1.postimg.org/5yvkzoddbj/bethany_firma2.png');
+    outline:2px solid #8799a4;
+    border:4px solid #141414;
+}
+.firmabs2 .texto {
+    width:44px;
+    height:50px;
+    padding:7px 9px 5px;
+    position:relative;
+    background:rgba(23, 23, 23, 0.4);
+    top:119px;left:218px;font-weight:bold;color:white;border:1px solid;font-size:10px;text-align:justify;letter-spacing: 1.5px;}
 .firmabs2 .int {display:block; font-style:italic;font-family:raleway;font-size:14px;margin-left:16px;}
+
 .firmabs + .pics, .firmabs2 + .pics {
     width: 200px;
     margin: 7px auto -4px auto;
@@ -17,9 +46,7 @@
     color: #8072b7;
     letter-spacing: -2px;
 }
-.firmabs + .pics a:nth-child(3), .firmabs2 + .pics a:nth-child(3) {
-    color: #9a4f4f
-}
+.firmabs + .pics a:nth-child(3), .firmabs2 + .pics a:nth-child(3) {color: #9a4f4f}
 
 .status {margin:25px auto;width:170px;border:1px solid #394341;outline:20px solid #141414;padding:20px;background:#141414; }
 .status.tema {display:block; padding:20px;outline-color: #000000a6; background-color: #000000a6;}
