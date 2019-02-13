@@ -1,3 +1,50 @@
+/*Firma*/
+.bethanyfirma {
+width: 292px;
+height: 192px;
+padding: 5px;
+margin: 5px auto auto;
+outline-offset: -12px;
+outline: 1px solid #d4d5d4;
+background: linear-gradient(to bottom right,#cacccc , #94635e, #cccbca, #b1c5c0);
+}
+.puerta {
+width:290px;
+height:190px;
+border: 1px solid #020202;
+}
+.billkill {
+width: 65px;
+font-size: 7px;
+color: #f1f1f1;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+font-family: calibri;
+text-align: justify;
+line-height: 8px;
+margin-left: 10px;
+margin-top: 81px;
+}
+.betsita {
+margin-left: 9px;
+margin-top: 1px;
+width: 0;
+height: 0;
+border-right: 128px solid transparent;
+border-top: 60px solid transparent;
+border-left: 0px;
+border-bottom: 120px solid #b7bdbcb5;
+}
+.lineab {
+background: #d4d5d4;
+width: 1px;
+height: 193px;
+transform: rotate(-47deg);
+margin-top: -159px;
+margin-left: 75px;
+}
+
+/*Vieja firma*/
 .firmabs {
     margin:auto;width:300px;
     height:190px;
@@ -31,22 +78,23 @@
     top:119px;left:218px;font-weight:bold;color:white;border:1px solid;font-size:10px;text-align:justify;letter-spacing: 1.5px;}
 .firmabs2 .int {display:block; font-style:italic;font-family:raleway;font-size:14px;margin-left:16px;}
 
-.firmabs + .pics, .firmabs2 + .pics {
+.firmabs + .pics, .firmabs2 + .pics, .bethanyfirma + .pics {
     width: 200px;
     margin: 7px auto -4px auto;
     text-align: center;
     letter-spacing: 2px;
 }
-.firmabs + .pics a:first-child, .firmabs2 + .pics a:first-child  {
+.firmabs + .pics a:first-child, .firmabs2 + .pics a:first-child, .bethanyfirma + .pics a:first-child  {
     color: #729db7;
     letter-spacing: -1px;
 }
-.firmabs + .pics a:nth-child(2), .firmabs2 + .pics a:nth-child(2) {
+.firmabs + .pics a:nth-child(2), .firmabs2 + .pics a:nth-child(2), .bethanyfirma + .pics a:nth-child(2) {
     color: #8072b7;
     letter-spacing: -2px;
 }
-.firmabs + .pics a:nth-child(3), .firmabs2 + .pics a:nth-child(3) {color: #9a4f4f}
+.firmabs + .pics a:nth-child(3), .firmabs2 + .pics a:nth-child(3), .bethanyfirma + .pics a:nth-child(3) {color: #9a4f4f}
 
+/*Stats viejos*/
 .status {margin:25px auto;width:170px;border:1px solid #394341;outline:20px solid #141414;padding:20px;background:#141414; }
 .status.tema {display:block; padding:20px;outline-color: #000000a6; background-color: #000000a6;}
 .status.bs {border-color: #8799a4;}
