@@ -1,14 +1,15 @@
 <script src="https://kit.fontawesome.com/5b367a9fb4.js" crossorigin="anonymous"></script>
 <style>#playAudio3 {position: relative; width: 25px;cursor: pointer} body{margin: 0}</style>
 <audio id="testAudio3" hidden>
-    <source src="https://namistuff.github.io/Avam-codes/Uptown%20Funk.mp3" type="audio/mpeg"/></audio>
-    <img src="https://bangeluz.github.io/avam-project/play.svg" id="playAudio3"/><i class="fas fa-play"></i>
+    <source src="https://namistuff.github.io/Avam-codes/Uptown%20Funk.mp3" type="audio/mpeg"/>
+</audio>
+<img src="https://bangeluz.github.io/avam-project/play.svg" id="playAudio3"/>
 <script>
 document.getElementById("playAudio3").addEventListener("click", function(){
     var audio = document.getElementById('testAudio3');
     audio.volume = 1;
   if(this.className == 'is-playing'){
-    this.className = "";
+    this.className = "fas";
     this.setAttribute("src", "https://bangeluz.github.io/avam-project/play.svg");
     audio.pause();
   }else{
