@@ -63,6 +63,7 @@
 .trav-sig.beat:hover .trav-img .trav-repro {
     opacity: 1;
 }
+.trav-sig.beat iframe{width:15px; height: 15px;}
 gg {
     width: 210px;
     margin-left: 10px;
