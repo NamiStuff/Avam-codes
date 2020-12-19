@@ -35,23 +35,48 @@
     position: relative; 
     left: -19px; 
 }
-
+.trav-sig.beat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .trav-sig.beat .trav-img { 
-    background: url(http://sig.grumpybumpers.com/host/beathan.gif); 
-    box-shadow: 0 0 0 3px #141414, 0 0 0 5px #5a769a; 
-    background-size: 140px; 
-    background-position: center; 
+    background: url(http://sig.grumpybumpers.com/host/beathan.gif);
+    box-shadow: 0 0 0 3px #141414, 0 0 0 5px #5a769a;
+    background-size: 140px;
+    background-position: center;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
 } 
 .trav-sig.beat .trav-img .trav-repro { 
-    background: rgba(90, 118, 154, 0.3); 
-} 
+    background: rgba(90, 118, 154, 0.3);
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trav-sig.beat:hover .trav-img .trav-repro {
+    opacity: 1;
+}
+gg {
+    width: 210px;
+    margin-left: 10px;
+}
 .trav-sig.beat .trav-tit { 
-    width: 210px; text-align: center; 
+    text-align: center;
     color: #5a769a;
+    font-family: 'Good Things';
+    font-size: 17px;
 } 
 .trav-sig.beat .trav-txt { 
     font-family: calibri;
     font-size: 10px;
-    color:white;
+    color: white;
     background: #000000ab;
+    margin: auto;
+    padding: 0 5px;
 }
