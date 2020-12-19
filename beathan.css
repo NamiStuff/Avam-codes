@@ -48,6 +48,7 @@
     width: 130px;
     height: 130px;
     border-radius: 100%;
+    transition: ease-in-out .5s;
 } 
 .trav-sig.beat .trav-img .trav-repro { 
     background: rgba(90, 118, 154, 0.3);
@@ -70,7 +71,9 @@ gg {
     text-align: center;
     color: #5a769a;
     font-family: 'Good Things';
-    font-size: 17px;
+    font-size: 19px;
+    width: 180px;
+    margin: 0 auto 6px;
 } 
 .trav-sig.beat .trav-txt { 
     font-family: calibri;
@@ -78,5 +81,6 @@ gg {
     color: white;
     background: #000000ab;
     margin: auto;
-    padding: 0 5px;
+    padding: 5px;
+    line-height: 12px;
 }
